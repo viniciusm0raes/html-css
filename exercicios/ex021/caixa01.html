@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*essa é uma configuração box-level*/
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(136, 24, 24);
+
+            /*para simplificação do código, todas as definições de border, margin e outline
+            podem ser simplificadas numa única linha. Para tanto, a ordem das informações precisa
+            ser mantida (width style color)
+            por exemplo:
+            border: 10px solid red;    
+            */
+            
+
+            padding: 10px 10px 10px 10px;
+
+            /*A mesma simplificação:
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            Para padding e border, se todas as medidas forem iguais, basta informar uma ÚNICA vez:
+            padding: 10px;
+            
+            */
+
+
+/*Tanto as medidas de padding, quanto de margin devem ser definidas no sentido horário (top, right, bottom, left)
+
+para CENTRALIZAR a caixa, deve-se definir apenas margin: auto;
+            margin: auto;
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+
+colocando como abaixo eu estou definindo uma centralização horizontal, mas diferenciando as margens do topo e baixo
+
+
+*/
+            margin: 10px auto 30px auto;
+            outline: 5px dashed blue;
+
+ /*mesma relação para o outline 
+            outline: 5px;
+            outline-style: dashed;
+            outline-color: blue;*/
+
+        }
+
+       
+
+        a{/*essa é uma configuração inline-level*/
+            border: 5px solid red;
+            /*
+            border-width: 5px;
+            border-style: solid;
+            border-color: red;*/
+
+            display: inline;
+            /*a configuração do display muda como block (para uma caixa com QUEBRA de texto) e
+            inline (para uma caixa DENTRO do texto*/
+
+
+            padding: 10px;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links</a> são exemplos de caixas inline-level. Vamos ver como isso funciona</p>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color:darkred
+            
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color:goldenrod
+        }
+
+        /*
+        SELETORES PERSONALIZADOS
+        Os símbolos usados em CSS significam:
+
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = children (para os exemplos de filho, como a tag p, dentro de um h2 ou a tag a, dentro de uma lista.)
+
+
+
+        */
+
+        /*Os :: são para determinar pseudoelementos. O exemplo trata o before (antes) e o after (depois) dos links links e se aplicará a todos os que contenham o elemento a (links)
+        O exemplo abaixo também demonstra como isso pode ser aplicado apenas para uma classe específica. Dessa forma, apenas para a classe declarada, os estados antes/depois (before/after) serão aplicados.
+        */
+
+        .especial {
+            background-color: rgb(243, 205, 111);
+        }
+
+        .especial::before{
+            content: '⇨';
+            text-decoration: none;
+            font-weight: normal;
+            color:black;
+        }
+
+        .especial::after{
+            content: '⇦';
+            text-decoration: none;
+            font-weight: normal;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

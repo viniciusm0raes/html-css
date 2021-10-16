@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*
+O que em HTML é id - em CSS é # (Só deve haver um ID por página HTML.)
+O que em HTML é claa - em CSS é . (No caso das class, é possível definir várias para um mesmo documento.)
+*/
+
+/*
+Atentar para a ordem de declaração. O h1, por exemplo, tem uma configuração genérica que se aplicará para TODO h1, mas possui uma configuração específica, que deve ser declarada depois e irá se sobreposta pela genérica declarada anteriormente. Por exemplo, um background definido no ID do h1, ainda que tenha um outro background definido para o específica, vai se sobrepor por ser a determinante no caso.
+
+As configurações de CLASS são prioritárias em relação aos ID's. Dessa forma, ainda que uma configuração herdada do ID seja declarada anteriormente, a CLASS irá se sobrepor por sua hierarquia.
+
+*/
+
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(133, 133, 63);
+}
+h1#principal{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: blue;
+}
+
+.basico{
+    color: rgb(172, 226, 155);
+    background-color: rgb(10, 77, 10);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(246, 248, 131);
+    background-color: rgb(128, 125, 0);
+    font-weight: bold;
+}
+
+.avancado{
+    color: rgb(241, 82, 82);
+    background-color: rgb(92, 0, 0);
+    font-weight: bold;
+}
+
+.destaque{
+    color:rgb(159, 161, 0);
+    font-weight: bold;
+}

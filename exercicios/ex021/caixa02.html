@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:rgb(230, 228, 228);
+            margin: 0px;
+        }
+        
+        header{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 13px 0px;
+            box-shadow: 3px 3px 13px 0px black;
+        }
+        
+        h1{
+            box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.521);
+        }
+        nav{
+            background-color: rgb(75, 74, 74);
+            padding: 2px;
+            text-align: center;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+            /*
+            no box-shadow são definidos:
+            deslocamento horizontal;
+            deslocamento vertical;
+            espalhamento;
+            blur; (transparência)
+            sombra; (cor)
+            para uma sombra interna basta incluir inset antesdos parâmetros
+            box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.521);
+             */
+
+
+        }
+        
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 13px;
+        
+        }
+        
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        
+        main{
+            background-color: white;
+            padding:10px;
+            margin:10px;
+            border-radius: 13px 0px;
+            box-shadow: 3px 3px 13px 0px black;
+            /*para arredondamento dos cantos das caixas é usado o:
+            boorder-radius: 10px;
+
+            Apenas dessa forma todos os cantos eceberão um arredondamento de 10px. É possível definir cada um pela ordem:
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+            podendo ser resumido em:
+            border-radius: 10px 20px 30px 40px;
+
+            se for colocado apenas duas medidas, a primeira afetará os cantos superior esquerdo e inferior direito e a segunda afetará os cantos superior direito e inferior esquerdo:
+            border-radius: 13px 26px;
+
+            em se usando o box-shadow, a sombra irá obedecer a mesma configuração de arredondamento.
+            */
+
+        }
+        
+        article{
+            background-color: rgb(167, 167, 167);
+            padding: 5px;
+        }
+        
+        article > aside{
+            background-color: rgb(129, 125, 125);
+        }
+
+        article > aside > p{
+            text-align: center;
+        }
+        
+
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            margin:auto;
+            margin-top: 13px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50%;            
+        }
+        </style>
+</head>
+<body>
+    <!--
+    /*as tags <div> e <span> são caixas, sendo a div uma box-level e o span uma inline-level*/
+    -->
+    <!--header é a tag de cabeçalho, main a de corpo e footer a de rodapé. Para o menu é utilizada a tag nav-->
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Esportes  Política  Tecnologia</p>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias dessa zona</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quisquam nobis voluptatem aperiam quam hic laboriosam vitae maxime dolorum illo. Necessitatibus maiores voluptatum est iste nulla iusto quidem illum porro?</p>
+                <aside>
+                    <p >Artigo escrito por Fulano</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por nadaZaver</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

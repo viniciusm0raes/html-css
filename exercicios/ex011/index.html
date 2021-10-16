@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"> </head>
+<title>Mídias em HTML5</title>
+
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p align="center">
+        <picture>
+            <source media="(max-width:750px) " srcset="imagens/foto-p.png ">
+            <source media="(max-width:1050px) " srcset="imagens/foto-m.png ">
+            <img src="imagens/foto-g.png " alt="Imagem Flexível">
+        </picture>
+
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+        <audio preload="metadata " autoplay controls loop>
+        <source src="midia/guanacast-33.mp3 " type="audio/mpeg ">
+        <source src="midia/guanacast-33.ogg " type="audio/ogg ">
+        <source src="midia/guanacast-33.wav " type="audio/wav ">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3 ">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+        <!--Os formatos indicados por serem os mais reconhecidos pelos broswers são MP3, WAV e OGG-->
+        <!--O parâmetro loop usado acima só deve ser utilizado para arquivos curtos e em browers que suportam o autoplay para que o arquivo curto fique se repetindo. Abaixo vai um exemplo-->
+    </p>
+    <p>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+                <!--O autoplay no Chrome não está funcionando, o loop só ocorre quando o usuário clica uma primeira vez no player-->
+        </audio></p>
+</body>
+
+</html>

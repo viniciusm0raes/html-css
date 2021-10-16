@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+
+/* Para o font-size
+Medidas absolutas
+cm, mm, in, px, pt, pc
+recomendada pela W3C é a px
+ex: font-size: 1px; (não colocar espaço entre o número e a medida)
+
+Medidas relativas
+em, ex, rem, vw, vh, %
+recomendada pela W3C é a em
+ex: font-size: 1em; (não colocar espaço entre o número e a medida)
+16px geralmente é igual a 1em (em é relativo ao tamanho original da fonte (16px por padrão))
+
+*/
+
+            font-weight: normal;
+
+/*O font-weight varia em números de 100 a 900 ou em estilo com lighter, normal, bold e bolder. Essas variações estão disponíveis em algumas fontes. A maioria possui algumas, mas não todas elas.*/
+
+            font-style: italic;
+
+/*Para o font-style, pode-se usar o normal, italic, oblique e outras */
+
+            text-decoration: underline;
+
+/*Para o sublinhado se utiliza o text-decoration, que permite o underline para sublinhado normal, unset e outras variações*/
+
+/*Para simplificar a aplicação dessas configurações todas de fonte, pode-se usar o shorthand font
+O mesmo precisa seguir a ordem de declaração com:
+font-style -> font-weight -> font-size -> font-family
+
+O código ficaria assim:
+font: italic bolder 3em Arial, Helvetica, sans-serif;
+
+*/
+
+
+        }
+
+              
+    </style>
+    <!--se NÃO for especificada cada tag em separado, a definida para o body valerá para toda a página, incluindo h1, h2, p, etc.-->
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iste illum placeat dolor debitis tenetur repellendus porro ipsam. Quibusdam enim quidem a tempore temporibus fugit. Facere a cupiditate optio doloribus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque minima adipisci alias quia amet aut eos quam dicta magnam necessitatibus corporis delectus quasi laudantium, officiis iure harum earum modi blanditiis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit doloribus quod ex dolorum qui accusantium quos eveniet. Quaerat magni necessitatibus consectetur eaque ipsa repudiandae deserunt voluptatem cum expedita beatae.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptatum ipsam quos necessitatibus incidunt eligendi eveniet ad fuga quam doloremque. Cum, soluta debitis! Numquam blanditiis laboriosam quo amet, facilis explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. In ab facilis sint odit cupiditate nemo, culpa perferendis quis vero ullam eum eos ad earum rerum iusto fuga ut. Possimus, culpa!</p>
+</body>
+</html>
