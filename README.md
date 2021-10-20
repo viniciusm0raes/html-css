@@ -19,7 +19,9 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex013/index.html"> Executar o exercício 013</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex014/index.html"> Executar o exercício 014</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex015/index.html"> Executar o exercício 015</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/index.html"> Executar o exercício 016</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor01.html"> Executar o exercício 016</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor02.html"> Executar o exercício 016</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor03.html"> Executar o exercício 016</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/index.html"> Executar o exercício 017</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex018/index.html"> Executar o exercício 018</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex019/index.html"> Executar o exercício 019</a></li>
