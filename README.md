@@ -22,9 +22,14 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor01.html"> Executar o exercício 016-01</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor02.html"> Executar o exercício 016-02</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor03.html"> Executar o exercício 016-03</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/index.html"> Executar o exercício 017</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex018/index.html"> Executar o exercício 018</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex019/index.html"> Executar o exercício 019</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/index.html"> Executar o exercício 020</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte01.html"> Executar o exercício 017-01</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte02.html"> Executar o exercício 017-02</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte03.html"> Executar o exercício 017-03</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex018/fonte01.html"> Executar o exercício 018-01</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex018/fonte02.html"> Executar o exercício 018-02</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex019/seletor01.html"> Executar o exercício 019</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/hover.html"> Executar o exercício 020-01</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/links.html"> Executar o exercício 020-02</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/pseudo-classe.html"> Executar o exercício 020-03</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/index.html"> Executar o exercício 021</a></li>
 </ul>
