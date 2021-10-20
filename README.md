@@ -2,6 +2,7 @@
  Curso de HTML5 e CSS3 do Curso em Vídeo
 
  Gerenciamento do Repositório
+
 <ul>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex001/index.html"> Executar o exercício 001</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex002/index.html"> Executar o exercício 002</a></li>
@@ -22,9 +23,9 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor01.html"> Executar o exercício 016-01</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor02.html"> Executar o exercício 016-02</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex016/cor03.html"> Executar o exercício 016-03</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte01.html"> Executar o exercício 017-01</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte02.html"> Executar o exercício 017-02</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte03.html"> Executar o exercício 017-03</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fontes.html"> Executar o exercício 017-01</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fonte01.html"> Executar o exercício 017-02</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex017/fontes02.html"> Executar o exercício 017-03</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex018/fonte01.html"> Executar o exercício 018-01</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex018/fonte02.html"> Executar o exercício 018-02</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex019/seletor01.html"> Executar o exercício 019</a></li>
