@@ -40,4 +40,5 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo003.html"> Abrir o exercício 022-03</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo004.html"> Abrir o exercício 022-04</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo005.html"> Abrir o exercício 022-05</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo006.html"> Abrir o exercício 022-06</a></li>
 </ul>
