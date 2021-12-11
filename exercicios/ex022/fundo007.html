@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        /*para centralizar verticalmente uma caixa (div, section, article, etc) é necessário que a caixa principal seja identificada com id (container, por exemplo) e as caixas internas com outra id (conteudo, por exemplo).
+        A caixa principal precisa ter um 'position: relative' e a interna um 'position: absolute'.
+        
+        */
+        #container{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 94vh;
+            padding: 8px;
+            background-color: cadetblue;
+            
+
+        }
+
+        /*
+        as tags left e top abaixo estão definindo a posição padrão suportadas pelas tags. Já a tag transform reposiciona essa caixa sendo que, números positivos movem para direita / baixo e números negativos para esquerda / acima.
+        */
+
+        article#a01{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: darkgoldenrod;
+            position: absolute;
+            height: 25vh;
+            width: 25vw;
+            right: 50%;
+            top: 0%;
+            transform: translate(-50%, 50%);   
+
+        }
+
+        article#a02{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: darkgoldenrod;
+            position: absolute;
+            height: 25vh;
+            width: 25vw;
+            right: 50%;
+            top: 50%;
+            transform: translate(-50%, 50%);     
+
+        }
+
+        article#a03{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: darkgoldenrod;
+            position: absolute;
+            height: 25vh;
+            width: 25vw;
+            left: 50%;
+            top: 0%;
+            transform: translate(50%, 50%);   
+
+        }
+
+        article#a04{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: darkgoldenrod;
+            position: absolute;
+            height: 25vh;
+            width: 25vw;
+            left: 50%;
+            top: 50%;
+            transform: translate(50%, 50%);     
+
+        }
+
+        article#a05{
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: darkgoldenrod;
+            position: absolute;
+            height: 20vh;
+            width: 20vw;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);     
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="a01">
+
+        </article>
+        
+        <article id="a02">
+
+        </article>
+        <article id="a03">
+
+        </article>
+        
+        <article id="a04">
+
+        </article>
+
+        <article id="a05">
+
+        </article>
+
+    </section>
+</body>
+</html>
