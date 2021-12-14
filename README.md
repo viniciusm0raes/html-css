@@ -32,9 +32,14 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/hover.html"> Exemplo de Hover</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/links.html"> Links</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/pseudo-classe.html"> Pseudo-classes</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa01.html"> Modelo de Caixas</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa02.html"> Grouping Tags</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa01.html"> Modelo de Caixas</a></li>  
+  
+***
+Projeto Android
+***
+<li><a href="https://viniciusm0raes.github.io/projeto-android/"> Projeto Android</a></li> 
+
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa02.html"> Grouping Tags</a></li><li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo001.html"> Distribuição e Background das DIVs</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo002.html"> Personalização dos Backgrounds</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo003.html"> Posição do Background</a></li>
@@ -42,6 +47,13 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo005.html"> + Sobre Posicionamento</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo006.html"> Fundo Fixo de Tela</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo007.html"> Alinhamento Vertical</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/parallax.html"> Efeito Parallax</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/parallax.html"> Efeito Parallax</a></li>  
+  
+***
+Projeto Cordel Moderno
+***  
+<li><a href="https://viniciusm0raes.github.io/projeto-cordel/"> Projeto Cordel Moderno</a></li> 
+
+
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela001.html"> Tabelas</a></li>
 </ul>
