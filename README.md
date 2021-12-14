@@ -36,8 +36,8 @@
   
 ***
 Projeto Android
-***
 <li><a href="https://viniciusm0raes.github.io/projeto-android/"> Projeto Android</a></li> 
+***
 
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa02.html"> Grouping Tags</a></li><li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo001.html"> Distribuição e Background das DIVs</a></li>
@@ -51,9 +51,8 @@ Projeto Android
   
 ***
 Projeto Cordel Moderno
-***  
 <li><a href="https://viniciusm0raes.github.io/projeto-cordel/"> Projeto Cordel Moderno</a></li> 
-
+***  
 
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela001.html"> Tabelas</a></li>
 </ul>
