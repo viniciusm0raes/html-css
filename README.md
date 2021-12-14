@@ -4,7 +4,7 @@
  Gerenciamento do Repositório
 
 <ul>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex001/index.html"> Abrir o exercício 001</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex001/index.html"> Exercício 001</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex002/index.html"> Parágrafos e quebras de linha</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex003/index.html"> Carregando Imagens</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex004/index.html"> Inserindo Favicon</a></li>
