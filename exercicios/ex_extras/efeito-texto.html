@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Texto Animado</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+
+        footer > p {
+            font-size: max(12px, 1.7vw);
+        }
+
+        footer > p {
+            font-size: min(16px, 2.3vw);
+        }
+
+        .typing-animation {
+            font-size: max(153px, 8vw);
+        }
+
+        .typing-animation {
+            font-size: min(162px, 8.5vw);
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: rgba(25, 25, 25);
+        }
+
+        .line{
+            border-right: 2px solid rgba(255, 255, 255, 0.75);
+            color: rgba(255, 255, 255, 0.75);
+            font-family: 'Special Elite', monospace;
+            text-align: center;
+            margin: 0 auto;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .typing-animation{
+            animation: blinkCursor 620ms steps(53) infinite normal, typing 4s steps(53) 1s normal both;
+
+        }
+
+        @keyframes typing{
+            from{
+                width: 0;
+
+            }
+
+            to{
+                width: 11.5em;
+
+
+            }
+        }
+
+
+        @keyframes blinkCursor{
+            from{
+                border-right-color:rgba(255, 255, 255, 0.75);
+            }
+
+            to{
+                border-right-color:transparent;                
+            }
+        }
+
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            bottom:0;
+            width:100%;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;            
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        </style>
+        
+</head>
+<body>
+
+    <p class="line typing-animation">Mais um e novo teste...</p>
+    
+    <footer>
+        <p>Criado com base no modelo apresentado no canal do <a href="https://github.com/willianjusten" target="_blank">Willian Justen</a> no <a href="https://www.youtube.com/c/WillianJustenCursos/videos" target="_blank">YouTube</a>.</p>        
+    </footer>
+</body>
+
+</html>

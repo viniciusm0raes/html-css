@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Bordas no Hover</title>
+    <style>
+        @charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        @font-face {
+            font-family: 'Android';
+            src: url('../fontes/idroid.otf') format('opentype');
+            font-weight: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
+
+        body{
+            display: flex;
+            aling-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+        footer > p {
+            font-size: max(12px, 1.7vw);
+        }
+
+        footer > p {
+            font-size: min(16px, 2.3vw);
+        }
+
+        .bsobre{
+            margin: auto;            
+            padding: 13px;
+            width: 53vw;
+            box-shadow: 0 0 5px 0px #e2e2e2;
+            position: relative;
+
+        }
+
+        .bsobre > h1{            
+                text-align: center;            
+        }
+
+        .bsobre > p{
+            text-align: justify;
+        }
+
+        .bsobre > height{
+            height: max(17vh);
+            height: min(20vh);
+
+
+        }
+
+        .bsobre:after,
+        .bsobre:before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            transition: transform .3s ease-in-out;
+        }
+
+        .bsobre:before{
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            transform: scaleY(0);
+        }
+
+        .bsobre:after{
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            transform: scaleX(0);
+        }
+
+        .bsobre:hover:before{
+            transform: scaleY(1);
+
+        }
+
+        .bsobre:hover:after{
+            transform: scaleX(1);
+
+        }
+        .text{
+            margin: 20px auto;
+        }
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            bottom:0;
+            width:100%;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;           
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="bsobre">
+            <h1>Bordas no Hover com CSS</h1>
+            <p class="text">Outro teste com efeitos de animação em CSS.</p>
+
+        </div>
+
+        <footer>
+            <p>Criado com base no modelo apresentado no canal do <a href="https://github.com/willianjusten" target="_blank">Willian Justen</a> no <a href="https://www.youtube.com/c/WillianJustenCursos/videos" target="_blank">YouTube</a>.</p>        
+        </footer>
+</body>
+</html>

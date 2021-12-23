@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Grid e Object-fit - Responsivo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(163, 163, 163);
+        }
+
+        footer > p {
+            font-size: max(12px, 1.7vw);
+        }
+
+        footer > p {
+            font-size: min(16px, 2.3vw);
+        }
+
+        body > h1 {
+            font-size: max{28px, 3vw};
+        }
+
+        body > h1 {
+            font-size: min(35px, 4vw);
+        }
+        
+        .container {
+            margin: auto;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 13px;
+            justify-content: center;
+            padding: 13px;
+
+        }
+
+        .polaroid {
+            background: rgb(245, 195, 70);
+            color: #000;
+            padding: 13px 13px 40px;
+            box-shadow: 0 0 5px 5px rgb(99, 98, 98);
+        }
+
+        .photo {
+            width: 100%;
+            height: 290px;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.6em;
+            font-weight: bolder;
+            text-align: center;
+            text-shadow: 1px 1px 3px #fff;
+            white-space: nowrap;
+
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 1px 1px 3px #fff;
+            font-weight: bolder;
+        }
+
+        .caption > p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        footer {
+            position:relative;
+            bottom:0;
+            width:100%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;      
+        }
+
+        footer a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeria Responsiva com Grid e Object-fit</h1>
+    <div class="container">
+    <div class="polaroid">
+        <img src="imagens/img_1.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="imagens/img_2.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+    
+    
+    <div class="polaroid">
+        <img src="imagens/img_3.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="imagens/img_4.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+
+    
+    <div class="polaroid">
+        <img src="imagens/img_5.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="imagens/img_6.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+    
+    <div class="polaroid">
+        <img src="imagens/img_7.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <img src="imagens/img_8.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+    
+    <div class="polaroid">
+        <img src="imagens/img_10.jpg" alt="" class="photo">
+        <div class="caption">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium quam obcaecati pariatur, incidunt ipsum deleniti, facilis corrupti, rem id exercitationem corporis. Perferendis magnam reiciendis debitis nostrum vel consequatur rerum itaque.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Criado com base no modelo apresentado no canal do <a href="https://github.com/willianjusten" target="_blank">Willian Justen</a> no <a href="https://www.youtube.com/c/WillianJustenCursos/videos" target="_blank">YouTube</a>.</p>        
+</footer>
+</body>
+</html>

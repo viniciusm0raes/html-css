@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Menu Tela Cheia</title>
+    <style>
+        
+        *,
+        *:before {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        *:after {
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        
+        footer > p {
+            font-size: max(12px, 1.7vw);
+        }
+
+        footer > p {
+            font-size: min(16px, 2.3vw);
+        }
+
+
+        body {
+            background: #000;
+            display: flex;
+            color: rgb(226, 170, 28);
+            font-family: Arial, Helvetica, sans-serif;
+            height: 94vh;
+            width: 94vw;
+        }
+
+        h1 {
+            margin-top: 13px;
+            margin-left: 13px;
+            font-size: 2vw;
+            white-space: nowrap;
+            
+        }
+
+        .menu {
+            background: rgb(62, 62, 62);
+            width: 53px;
+            height: 53px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 50px;
+            right: 25px;
+            cursor: pointer;
+            transition: 1.1s cubic-bezier(0, 1.29, 0.79, 0.79);
+        }
+
+        .menu:hover {
+            box-shadow: 0 0 5px 5px rgb(226, 170, 28);
+        }
+
+        .hamburguer {
+            position: relative;
+            display: block;
+            background: rgb(226, 170, 28);
+            width: 35px;
+            height: 2px;
+            top: 26px;
+            left: 9px;
+            transition: 0.5s ease-in-out;
+        }
+
+        .hamburguer:before,
+        .hamburguer:after {
+            background: rgb(226, 170, 28);
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            transition: 0.5s ease-in-out;
+        }
+
+        .hamburguer:before {
+            top: -10px;
+        }
+
+        .hamburguer:after {
+            bottom: -10px;
+        }
+
+        input {
+            display: none;
+        }
+
+        input:checked ~ ul {
+            opacity: 1;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        input:checked ~ label .menu {
+            box-shadow: 0 0 0 130vw rgb(226, 170, 28), 0 0 0 130vh rgb(226, 170, 28);
+        }
+
+        input:checked ~ label .hamburguer {
+            transform: rotate(45deg);
+        }
+
+        input:checked ~ label .hamburguer:before {
+            transform: rotate(90deg);
+            top: 0px;
+        }
+
+        input:checked ~ label .hamburguer:after {
+            transform: rotate(90deg);
+            bottom: 0px;
+        }
+
+        ul {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            list-style: none;
+            opacity: 0;
+            transition: 1.1s cubic-bezier(0, 1.07, 0, 1.02);
+        }
+        
+        ul a {            
+            display: block;
+            margin-bottom: 35px;
+            color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5vh;
+            text-decoration: none;
+        }
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            position:absolute;
+            bottom:0;
+            width:94vw;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            white-space: nowrap;         
+        }
+
+        footer a {
+            color: rgb(226, 170, 28);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /*Para forçar que uma linha de texto não seja quebrada, basta utilizar o 'white-space: nowrap'.*/
+
+        input:checked ~ footer {
+            color: #000;
+            font-weight: 553;
+            white-space: nowrap;
+        }
+        
+        input:checked ~ footer a {
+            color: #fff;
+            font-weight: bolder;
+            white-space: nowrap;
+        }
+</style>        
+</head>
+<body>
+
+    <h1>Clique no botão do canto inferior direito para checar o efeito.</h1>
+
+    <input id="menu-hamburguer" type="checkbox">
+
+    <label for="menu-hamburguer">
+        <div class="menu">
+            <span class="hamburguer"></span>
+        </div>
+    </label>
+
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+
+    <footer>
+        <p>Criado com base no modelo apresentado no canal do <a href="https://github.com/willianjusten" target="_blank">Willian Justen</a> no <a href="https://www.youtube.com/c/WillianJustenCursos/videos" target="_blank">YouTube</a>.</p>        
+    </footer>
+
+</body>
+
+</html>

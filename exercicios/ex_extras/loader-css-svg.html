@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Loader em SVG</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+        body{
+            background: #000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 95vh;
+        }
+
+        .carregando{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 5px;
+            animation: texto 1s ease-in-out infinite;
+        }
+
+        footer > p {
+            font-size: max(12px, 1.7vw);
+        }
+
+        footer > p {
+            font-size: min(16px, 2.3vw);
+        }
+
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            bottom:0;
+            width:94vw;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;            
+        }
+
+        footer a {
+            color: rgb(226, 170, 28);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .triangulo{
+            stroke-dasharray: 17;
+            animation: dash 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+        }
+
+        @keyframes dash {
+            to{
+                stroke-dashoffset: 136;
+            }
+        }
+
+        @keyframes texto{
+            50% {
+                opacity: 0;
+            }
+        }
+</style>
+        
+</head>
+<body>
+<svg width="200" height="200" viewBox="0 0 40 60">
+<polygon class="triangulo" fill="none" stroke="#fff" stroke-with="1" points="16,1 32,32 1,32"/>
+<text class="carregando" x="0" y="45" fill="#fff">Carregando...</text>
+</svg>
+    
+    <footer>
+        <p>Criado com base no modelo apresentado no canal do <a href="https://github.com/willianjusten" target="_blank">Willian Justen</a> no <a href="https://www.youtube.com/c/WillianJustenCursos/videos" target="_blank">YouTube</a>.</p>        
+    </footer>
+</body>
+
+</html>

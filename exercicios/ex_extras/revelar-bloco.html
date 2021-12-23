@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Revelar Bloco</title>
+    <style>
+
+        body{
+            background: #000;
+            display: flex;
+            margin: 0;
+            padding:0;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+.text{
+    font-size: min(5vw);
+
+}
+
+
+  
+        footer > p {
+            font-size: max(12px, 1.7vw);
+        }
+
+        footer > p {
+            font-size: min(16px, 2.3vw);
+        }
+
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            position:absolute;
+            bottom:0;
+            width:94vw;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;            
+        }
+
+        footer a {
+            color: rgb(226, 170, 28);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .text{
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+
+            letter-spacing: 8px;
+            position: relative;
+            padding: 0;
+            opacity: 0;
+            animation: mostrar-texto 0s 1.1s both;
+        }
+
+        .text-block{
+            position: relative;
+            overflow: hidden;
+        }
+
+        .text-block::after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(226, 170, 28);
+            transform: translateX(-100%);
+            animation: crescer-bloco 0.5s 0.3s both, mostrar-bloco 0.5s 1.1s both;
+        }
+
+        @keyframes mostrar-texto {
+            from{
+                opacity: 0;
+            }
+
+            to{
+                opacity: 1;
+            }            
+        }
+
+        @keyframes mostrar-bloco {
+            from{
+                transform: translateX(0);
+            }
+
+            to{
+                transform: translateX(100%);
+            }
+        }
+
+        @keyframes crescer-bloco {
+            from{
+                width: 0%;
+            }
+            
+            to{
+                width: 100%;
+            }
+
+        }
+
+
+</style>
+        
+</head>
+<body>
+    <div class="text-block">
+        <h1 class="text">Testando mais uma vez...</h1>
+    </div>
+
+
+    
+    <footer>
+        <p>Criado com base no modelo apresentado no canal do <a href="https://github.com/willianjusten" target="_blank">Willian Justen</a> no <a href="https://www.youtube.com/c/WillianJustenCursos/videos" target="_blank">YouTube</a>.</p>        
+    </footer>
+</body>
+
+</html>
