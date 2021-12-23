@@ -36,6 +36,7 @@
   
 ***
 <li><a href="https://viniciusm0raes.github.io/projeto-android/"> Projeto Android</a></li>
+  
 ***
 
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa02.html"> Grouping Tags</a></li><li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>
@@ -64,7 +65,8 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/loader-css-svg.html"> Loader SVG (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/revelar-bloco.html"> Revelar Bloco (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/grid_object-fit_responsivo.html"> Galeria Responsiva com Grid / Object-Fit (CSS)</a></li>  
-***
   
+***
+
 
 </ul>
