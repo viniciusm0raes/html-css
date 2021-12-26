@@ -64,7 +64,7 @@
 
 =======
 Exercícios extras com CSS
->>>>>>> Stashed changes
+  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/background-animado.html"> Background Animado (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/efeito-texto.html"> Efeito Texto Digitado (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/bordas-hover.html"> Bordas no Hover (CSS)</a></li>  
