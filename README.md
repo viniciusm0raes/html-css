@@ -35,7 +35,8 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa01.html"> Modelo de Caixas</a></li>  
   
 ***
-<li><a href="https://viniciusm0raes.github.io/projeto-android/">## Projeto Android</a></li>
+### Projeto Android
+<li><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></li>
   
 ***
 
@@ -50,7 +51,8 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/parallax.html"> Efeito Parallax</a></li>    
   
 ***
-<li><a href="https://viniciusm0raes.github.io/projeto-cordel/">## Projeto Cordel Moderno</a></li> 
+### Projeto Cordel Moderno
+<li><a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a></li> 
   
 ***
 
@@ -61,7 +63,7 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Tabelas - Mesclagem de Células</a></li>    
   
 ***
-## Exercícios Extras com CSS
+### Exercícios Extras com CSS
   
 ***
 
