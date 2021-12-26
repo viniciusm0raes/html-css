@@ -1,7 +1,7 @@
 # html-css
  Curso de HTML5 e CSS3 do Curso em Vídeo
 
-## Gerenciamento do Repositório
+### Gerenciamento do Repositório
 
 <ul>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex001/index.html"> Olá Mundo!</a></li>
@@ -36,7 +36,7 @@
   
 ***
 ### Projeto Android
-<li><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></li>
+<li><a href="https://viniciusm0raes.github.io/projeto-android/">Android</a></li>
   
 ***
 
@@ -52,7 +52,7 @@
   
 ***
 ### Projeto Cordel Moderno
-<li><a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a></li> 
+<li><a href="https://viniciusm0raes.github.io/projeto-cordel/">Cordel Moderno</a></li> 
   
 ***
 
