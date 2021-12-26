@@ -1,0 +1,31 @@
+https://professorguanabara.github.io/projeto-android/#
+
+view-source:https://professorguanabara.github.io/projeto-android/
+
+https://professorguanabara.github.io/projeto-android/estilo/style.css
+
+
+
+
+D:\Documentos\Minhas Apostilas\HTML5_CSS3_v2020\desafios\010
+
+Imagens Reponsivas
+D:\Documentos\Minhas Apostilas\HTML5_CSS3_v2020\estudos\html-css\exercicios\ex011
+
+Vídeos
+D:\Documentos\Minhas Apostilas\HTML5_CSS3_v2020\estudos\html-css\exercicios\ex012
+
+Links Externos
+D:\Documentos\Minhas Apostilas\HTML5_CSS3_v2020\estudos\html-css\exercicios\ex010
+
+Listas
+D:\Documentos\Minhas Apostilas\HTML5_CSS3_v2020\estudos\html-css\exercicios\ex009b
+
+caixas - sombras
+D:\Documentos\Minhas Apostilas\HTML5_CSS3_v2020\estudos\html-css\exercicios\ex021
+
+body{
+font-family: var(--fonte0);
+color: var(--cor0);
+background-color: var(--cor1);
+}

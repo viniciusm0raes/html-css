@@ -58,6 +58,7 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela001.html"> Primeira Tabela</a></li>    
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela002.html"> Tabelas Grandes</a></li>    
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela003.html"> Tabelas - Cabeçalho Fixo</a></li>    
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Tabelas - Mesclagem de Células</a></li>    
 
 ***
  Exercícios Responsivos extras com CSS
@@ -71,5 +72,8 @@
   
 ***
 
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/desafios/013/desafio-013-p01.html"> Mesclagem de Linhas / Colunas - ex. 01</a></li>    
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/desafios/013/desafio-013-p02.html"> Mesclagem de Linhas / Colunas - ex. 02</a></li>    
+  
 
 </ul>

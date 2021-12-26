@@ -1,0 +1,99 @@
+@charset "UTF-8";
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte0: Arial, Helvetica, sans-serif;
+    --fonte1: 'Bebas Neue', cursive;
+    --fonte2: 'Android', sans-serif;
+    
+    }
+
+    body{
+        font-family: var(--fonte0);
+        color: var(--cor5);
+        background-color: var(--cor0);
+        
+        }
+   
+    header{
+        background-color:  var(--cor3);
+        font-family: var(--fonte0);
+        border: 1px solid black;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    main{
+        background-color:  var(--cor2);
+        font-family: var(--fonte0);
+        border: 1px solid black;
+        padding: 10px;
+        margin: 3px;
+        text-align: justify;
+    }
+    
+    section{
+        width: 53%;
+        height: auto;
+    }
+
+    article#caixa{
+        background-color: snow;
+        font-family: var(--fonte0);
+        width: 80%;
+        margin: 10px auto auto 10px;
+        padding: 1px 10px;
+        box-shadow: 3px 5px 4px black;
+        border-radius: 13px 31px;
+        text-align: justify;
+    }
+    aside#dentro{    
+        background-color:  var(--cor0);
+        font-family: var(--fonte0);
+        width: 80%;
+        height: auto;
+        margin: auto 1px 13px auto;
+        box-shadow: 3px 5px 4px black;
+        border-radius: 13px 31px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    aside#fora{        
+        position: absolute;
+        left: 71%;
+        top: 50%;
+        color: var(--cor1);
+        background-color:  var(--cor4);
+        font-family: var(--fonte0);
+        width: 20%;
+        height: 30%;        
+        margin: auto, 13px, auto, 13px;
+        box-shadow: 3px 5px 4px black;
+        border-radius: 13px 31px;
+        padding: 10px;
+        text-align: justify;
+        
+    }
+    nav{
+        text-align: center;
+        font-family: var(--fonte0);
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        font-family: var(--fonte0);       
+        width: auto;
+        margin: 10px auto;
+        padding: 1px 10px;
+        box-shadow: 3px 5px 4px black;
+        border-radius: 13px 31px;
+        text-align: center;
+    }
+    
+    
