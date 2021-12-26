@@ -58,9 +58,11 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela001.html"> Primeira Tabela</a></li>    
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela002.html"> Tabelas Grandes</a></li>    
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela003.html"> Tabelas - Cabeçalho Fixo</a></li>    
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Tabelas - Mesclagem de Células</a></li>    
-*** 
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Tabelas - Mesclagem de Células</a></li>  
   
+***
+
+Exercícios extras com CSS
   
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/background-animado.html"> Background Animado (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/efeito-texto.html"> Efeito Texto Digitado (CSS)</a></li>  
