@@ -35,8 +35,7 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa01.html"> Modelo de Caixas</a></li>  
   
 ***
-### Projeto Android
-<li><a href="https://viniciusm0raes.github.io/projeto-android/">Android</a></li>
+<li><h4><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></h4></li>
   
 ***
 
@@ -51,8 +50,7 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/parallax.html"> Efeito Parallax</a></li>    
   
 ***
-### Projeto Cordel Moderno
-<li><a href="https://viniciusm0raes.github.io/projeto-cordel/">Cordel Moderno</a></li> 
+<li><h4><a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a></h4></li> 
   
 ***
 
