@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Loader em SVG</title>
+    <style>
+        .loadert{
+            margin: auto;
+            background: #fff;
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 95vh;
+        }
+         
+
+        .carregando{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5.5px;
+            animation: texto 1s ease-in-out infinite;
+        }
+
+
+        .triangulo{
+            stroke-dasharray: 17;
+            animation: dash 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+        }
+
+        @keyframes dash {
+            to{
+                stroke-dashoffset: 136;
+            }
+        }
+
+        @keyframes texto{
+            50% {
+                opacity: 0;
+            }
+        }
+</style>
+        
+</head>
+<body>
+<svg class="loadert" width="200" height="200" viewBox="0 0 40 60">
+<polygon class="triangulo" fill="none" stroke="#db0e19" stroke-with="1" points="16,1 32,32 1,32"/>
+<text class="carregando" x="0" y="45" fill="#db0e19">Carregando...</text>
+</svg>
+    
+
+</body>
+
+</html>

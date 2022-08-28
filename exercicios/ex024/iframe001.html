@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+    <!--Os estilos CSS são soberanos sobre as configurações inline do 'iframe'-->
+    <style>        
+        iframe{
+            width: 313px;
+            height: 313px;
+            border: solid 1px black;
+            }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de iframe</h1>
+    <!--Por padrão o iframe tem 300x150px-->
+    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="0" height="513" width="513">
+        <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
+    </iframe> para aprender a programar.</p>
+    
+    <p>O repositório do vÉniciOs no GitHub
+    <iframe src="https://github.com/viniciusm0raes" frameborder="0" height="513" width="513">
+        <a href="https://github.com/viniciusm0raes" target="_blank">Repositório do vÉniciOs</a>
+    </iframe>
+    </p>
+
+    também tem outras coisas.
+</p>
+</body>
+</html>
