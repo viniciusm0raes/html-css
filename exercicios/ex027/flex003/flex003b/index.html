@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        section{
+            height: 200px;
+            margin: 10px;            
+        }
+
+        .container1{
+            display: flex;
+/*          flex-direction: column;
+            flex-wrap: wrap; */
+            /* simplificando as declarações acima */
+            flex-flow: column wrap;
+            background-color: lightsalmon;
+        }
+
+        .container2{
+            display: flex;
+/*          flex-direction: column;
+            flex-wrap: wrap-reverse; */
+            /* simplificando as declarações acima */
+            flex-flow: column wrap-reverse;
+            background-color: lightsalmon;
+        }
+
+        .container3{
+            display: flex;
+            /* flex-direction: column-reverse;
+            flex-wrap: wrap;
+            simplificando as declarações acima */
+            flex-flow: column-reverse wrap;
+            background-color: lightsalmon;
+
+        }
+
+        .container4{
+            display: flex;
+            /* flex-direction: column-reverse;
+            flex-wrap: wrap-reverse;
+            simplificando as declarações acima */
+            flex-flow: column-reverse wrap-reverse;
+            background-color: lightsalmon;
+        }        
+
+        .container5{
+            display: flex;
+            /* flex-direction: column;
+            flex-wrap: nowrap;
+            simplificando as declarações acima */
+            flex-flow: column nowrap;
+            background-color: lightsalmon;
+        }        
+
+        .item{
+            /* O flex: auto só funciona nos elementos filho e não permite espaços em branco no elemento pai. O bloco deslocado ocupa todo o espaço disponível na viewport.*/                     
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px solid black;            
+            text-align: center;
+            padding: 10px;
+        }
+
+        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
+        Apesar de o código demonstrar a configuração de cada propriedade (flex-direction e flex-wrap) em separado, a W3C indica priorizar o uso do shorthand flex-flow.
+        A propriedade flex-flow simplifica os dois comandos (flex-direction e flex-wrap) em apenas um. Onde a primeira propriedade é direção e a segunda o encapsulamento.
+        O flex-wrap (encapsulamento), por padrão está configurado como: 
+        flex-wrap:  nowrap;
+        Configurado como nowrap, os elementos não mudarão de lugar, mas caso sejam maiores que o espaço em tela disponível, gerarão barra horizontal para serem visualizados.
+        O flex-wrap determina a direção / comportamento dos elementos quando o espaço em tela (viewport) for menor que o elemento pai (container).
+        A quebra do wrap é sempre no sentido do eixo transversal (cross-axis). Por padrão, de cima para baixo, mantendo o sentido do row (esquerda para direita).
+        O wrap-reverse mantem a direção da row (esquerda para direita), mas inverte o cross-axis para de baixo para cima, podendo ser também alterado pela mudança de direção da linha pelo row-reverse.
+        As mesmas configurações são válidas para o column, mas para visualizar os resultados é preciso definir uma altura (height) para o container.*/
+    </style>
+    <title>Flexbox - flex-wrap (column)</title>
+</head>
+<body>
+    <section class="container1">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </section>
+
+    <section class="container2">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </section>
+
+    <section class="container3">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </section>
+
+    <section class="container4">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </section>
+
+    <section class="container5">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </section>
+</body>
+</html>

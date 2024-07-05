@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            padding: 5px 0px 0px 5px;
+        }
+
+        section{
+            height: 100px;
+            margin: 0px 0px 10px 0px;   
+            border: 1px solid black;                                 
+        }
+
+        .container1{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: stretch;
+            justify-content: space-around;
+            background-color: lightsalmon;
+        }
+        
+        .container2{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: lightsalmon;
+        }
+
+        .container3{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+            justify-content: space-around;
+            background-color: lightsalmon;
+        }
+
+        .container4{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-around;
+            background-color: lightsalmon;
+        }        
+
+         
+        .item{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px dashed black;            
+            text-align: center;
+            padding: 10px;            
+        }
+
+        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
+        As configurações serão aplicadas ao elemento pai (container).
+        Por padrão, a configuração do flex-flow é: flex-flow: row nowrap; (em linha e sem quebra dos elementos).
+        O align-items faz o alinhamento em relação ao cross-axis (eixo transversal). Se row, esse alinhamento será horizontal. Se column, o cross-axis passa a ser o vertical.
+        align-items: stretch é o valor padrão e define que os elementos serão esticados em relação ao cross-axis.
+        align-items: flex-start define que o último elemento ficará no cross-start e o espaço disponível no cross-end, também do cross-axis.        
+        align-items: flex-end define que o último elemento ficará no cross-end e o espaço disponível no cross-start, também do cross-axis.        
+        align-items: center define que os elementos sejam distribuídos no centro do cross-axis.
+        */          
+    </style>
+    <title>align-items (row)</title>
+</head>
+<body>
+    <h3>align-items: stretch</h3>
+    <section class="container1">        
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </section>   
+
+    <h3>align-items: flex-start</h3>
+    <section class="container2">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </section>   
+
+    <h3>align-items: flex-end</h3>
+    <section class="container3">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </section>   
+
+    <h3>align-items: center</h3>
+    <section class="container4">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </section>      
+</body>
+</html>
