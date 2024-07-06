@@ -33,7 +33,54 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/links.html"> Links</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex020/pseudo-classe.html"> Pseudo-classes</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa01.html"> Modelo de Caixas</a></li>  
-  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa02.html"> Grouping Tags</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo001.html"> Distribuição e Background das DIVs</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo002.html"> Personalização dos Backgrounds</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo003.html"> Posição do Background</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo004.html"> Posicionamento</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo005.html"> Mais Sobre Posicionamento</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo006.html"> Fundo Fixo de Tela</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo007.html"> Alinhamento Vertical</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/parallax.html"> Opacidade & Efeito Parallax</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela001.html"> Primeira Tabela</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela002.html"> Tabelas Grandes</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela003.html"> Cabeçalho Fixo</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Mesclagem de Celulas</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela005.html"> Exercício de Tabelas</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela006.html"> Agrupamento de Colunas</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela007.html"> Tabelas com rolagem lateral (Overflow-x)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex024/iframe001.html"> Estudos de iframe</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex024/iframe002.html"> Teste com iframe</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex024/iframe003.html"> Uso de iframe</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex024/iframe004.html"> Página de formulário no iframe</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex024/iframe005.html"> iframe com JavaScript</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex024/iframe006.html"> Conteúdos dentro de iframes</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form001.html"> Forms</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form002.html"> Forms - Placeholder</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form003.html"> Input Types - Number / Month / Date / Time</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form004.html"> Forms - Autocomplete / RegEx</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form005.html"> Forms - Checkbox</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form006.html"> Input Types - Color / Range / File</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form007.html"> Input Types - Optgroup / Datalist / Textarea</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form008.html"> Forms - Soma de valores</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form009.html"> Input Types - Range (oninput)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex025/form010.html"> Range - Min / Max</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq001/index.html"> Media Queries - Screen / Print</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq002/index.html"> Media Queries - Orientation (Portrait / Landscape) em styles separados</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq003/index.html"> Media Queries - Orientation (Portrait / Landscape) num mesmo style</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq004/index.html"> Media Queries - Device Breakpoints</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq005/index.html"> Media Query - Menu ajustado ao viewport (JavaScript)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex001/index.html"> Flexbox - display</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex002/index.html"> flex-direction</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex003/flex003a/index.html"> flex-wrap (row)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex003/flex003b/index.html"> flex-wrap (column)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004a/index.html"> justify-content (row)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004b/index.html"> justify-content (column)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004c/index.html"> align-items (row)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004d/index.html"> align-items (column)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex005/index.html"> Flexbox centralizado</a></li>  
+
 ***
 <li><h4><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></h4></li>
   
