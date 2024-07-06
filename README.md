@@ -86,26 +86,7 @@
   
 ***
 
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa02.html"> Grouping Tags</a></li><li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo001.html"> Distribuição / Background das DIVs</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo002.html"> Personalização dos Backgrounds</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo003.html"> Posição do Background</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo004.html"> Posicionamento</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo005.html"> + Sobre Posicionamento</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo006.html"> Fundo Fixo de Tela</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/fundo007.html"> Alinhamento Vertical</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex022/parallax.html"> Efeito Parallax</a></li>    
-  
-***
 <li><h4><a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a></h4></li> 
-  
-***
-
-  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela001.html"> Primeira Tabela</a></li>    
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela002.html"> Tabelas Grandes</a></li>    
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela003.html"> Tabelas - Cabeçalho Fixo</a></li>    
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Tabelas - Mesclagem de Células</a></li>    
   
 ***
  
@@ -115,7 +96,6 @@
 ### Exercícios Extras com CSS
   
 ***
-
   
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/background-animado.html"> Background Animado (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/efeito-texto.html"> Efeito Texto Digitado (CSS)</a></li>  
