@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+        }        
+        
+        h1, h2{
+            font-family: Arial, Helvetica, sans-serif;            
+        }
+
+        h1{
+            font-size: 2em;
+        }
+
+        h2{
+            font-size: 1.5em;
+        }
+
+        /*O justify-content alinha os itens dentro do eixo principal (main-axis). Já o align-itens, alinha os itens no eixo transversal (cross-axis) e o aling-content, também alinha no eixo transversal (cross-axis), mas quando eles estão empacotados. Configurado como wrap. Com nowrap não funciona e o comportamento padrão é o stretch.
+        Os valores válidos do aling-content são:
+        stretch (padrão) - divide o espaço disponível, se linhas ou colunas em valores iguais e estica os elementos dentro deste espaço
+        flex-start - distribui os elementos no cross-start e os espaço em branco no cross-end
+        flex-end  -  distribui os elementos no cross-end e os espaço em branco no cross-start, obedecendo a distribuição conforme a configuração normal ou reverse
+        center -  distribui os elementos no centro do espaço disponível, também conforme a configuração normal ou reverse
+        space-between -  define que o primeiro elemento esteja no cross-star do cross-axis, que o último elemento esteja no cross-end do mesmo cross-axis e que os demais elementos sejam distribuídos por igual no espaço disponível no cross-axis.
+        space-evenly - define que antes e depois (cross-star / cross-end) dos ítens se tenha espaçamentos iguais, todos em relação ao cross-axis.
+        space-around -  define que, no cross-axis, o espaço disponível no container seja divido igualmente pelo números de elementos existentes e centralizará cada elemento num desses espaços calculados.
+        */
+                
+        .container1{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: stretch;
+        }
+
+        .container2{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: flex-start;
+        }    
+
+        .container3{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: flex-end;
+        }    
+
+        .container4{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: center;
+        }    
+
+        .container5{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: space-between;
+        }    
+
+        .container6{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: space-evenly;
+        }
+
+        .container7{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-content: space-around;
+        }                      
+        
+        .item{
+            /* O flex: auto só funciona nos elementos filho e não permite espaços em branco no elemento pai. O bloco deslocado ocupa todo o espaço disponível na viewport.*/                                 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px solid black;            
+            text-align: center;
+            padding: 40px;
+        }
+
+        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
+        As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
+        Apesar de declarado acima, para exemplificação, a configuração padrão da tag div já é block, não precisando ser declarada.
+        */          
+    </style>
+    <title>Flexbox - display</title>
+</head>
+<body>
+	<h1>Flexbox - aling-content</h1>
+    <h2>aling-content: stretch (padrão)</h2>
+    <div class="container1">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>
+
+    <h2>aling-content: flex-start</h2>
+    <div class="container2">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>    
+
+    <h2>aling-content: flex-end</h2>
+    <div class="container3">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>    
+
+    <h2>aling-content: center</h2>
+    <div class="container4">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>    
+
+    <h2>aling-content: space-between</h2>
+    <div class="container5">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>    
+
+    <h2>aling-content: space-evenly</h2>
+    <div class="container6">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>    
+
+    <h2>aling-content: space-around</h2>
+    <div class="container7">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+        <div class="item">M</div>
+    </div>    
+</body>
+</html>
