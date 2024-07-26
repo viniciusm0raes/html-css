@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }        
+        
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+                
+        .container1{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+        } 
+
+        .item{
+            /* O flex: auto só funciona nos elementos filho e não permite espaços em branco no elemento pai. O bloco deslocado ocupa todo o espaço disponível na viewport.*/                     
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px solid black;            
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* A propriedade order definirá a ordem de exibição dos elementos. Caso o valor de order seja igual, isso não será definido pelo CSS diretamente, mas sim pela ordem no próprio HTML. Um exemplo disso é o caso do A e o F, nesse caso. */
+
+        #i1{
+            order: 0;
+        }
+
+        #i2{
+            order: -2;
+        }
+
+        #i3{
+            order: 4;
+        }
+
+        #i4{
+            order: 8;
+        }
+
+        #i5{
+            order: 2;
+        }
+
+        #i6{
+            order: 0;
+        }
+
+        #i7{
+            order: -4;
+        }
+
+        
+
+        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
+        As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
+        Apesar de declarado acima, para exemplificação, a configuração padrão da tag div já é block, não precisando ser declarada.
+        */          
+    </style>
+    <title>Flexbox - order</title>
+</head>
+<body>
+	<h1>Flexbox - order</h1>
+    <div class="container1">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+        <div class="item" id="i7">G</div>
+    </div>  
+</body>
+</html>

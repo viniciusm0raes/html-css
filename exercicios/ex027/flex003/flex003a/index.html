@@ -16,6 +16,19 @@
             padding: 10px;
         }
 
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            padding: 5px 0px 0px 5px;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            padding: 5px 0px 0px 5px;
+        }            
+
         section{
             margin: 10px;            
         }
@@ -76,21 +89,25 @@
             padding: 10px;
         }
 
-        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
-        Apesar de o código demonstrar a configuração de cada propriedade (flex-direction e flex-wrap) em separado, a W3C indica priorizar o uso do shorthand flex-flow.
-        A propriedade flex-flow simplifica os dois comandos (flex-direction e flex-wrap) em apenas um. Onde a primeira propriedade é direção e a segunda o encapsulamento.
-        O flex-wrap (encapsulamento), por padrão está configurado como: 
-        flex-wrap:  nowrap;
-        Configurado como nowrap, os elementos não mudarão de lugar, mas caso sejam maiores que o espaço em tela disponível, gerarão barra horizontal para serem visualizados.
-        O flex-wrap determina a direção / comportamento dos elementos quando o espaço em tela (viewport) for menor que o elemento pai (container).
-        A quebra do wrap é sempre no sentido do eixo transversal (cross-axis). Por padrão, de cima para baixo, mantendo o sentido do row (esquerda para direita).
-        O wrap-reverse mantem a direção da row (esquerda para direita), mas inverte o cross-axis para de baixo para cima, podendo ser também alterado pela mudança de direção da linha pelo row-reverse.
-        As mesmas configurações são válidas para o column, mas para visualizar os resultados é preciso definir uma altura (height) para o container.*/
     </style>
     <title>flex-wrap (row)</title>
 </head>
 <body>
 	<h1>flex-wrap (row)</h1>
+    <div>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+        Apesar de o código demonstrar a configuração de cada propriedade (flex-direction e flex-wrap) em separado, a W3C indica priorizar o uso do shorthand flex-flow.<br>
+        A propriedade flex-flow simplifica os dois comandos (flex-direction e flex-wrap) em apenas um. Onde a primeira propriedade é direção e a segunda o encapsulamento.<br>
+        O flex-wrap (encapsulamento), por padrão está configurado como:<br>
+        flex-wrap:  nowrap;<br>
+        Configurado como nowrap, os elementos não mudarão de lugar, mas caso sejam maiores que o espaço em tela disponível, gerarão barra horizontal para serem visualizados.<br>
+        O flex-wrap determina a direção / comportamento dos elementos quando o espaço em tela (viewport) for menor que o elemento pai (container).<br>
+        A quebra do wrap é sempre no sentido do eixo transversal (cross-axis). Por padrão, de cima para baixo, mantendo o sentido do row (esquerda para direita).<br>
+        O wrap-reverse mantem a direção da row (esquerda para direita), mas inverte o cross-axis para de baixo para cima, podendo ser também alterado pela mudança de direção da linha pelo row-reverse.<br>
+        As mesmas configurações são válidas para o column, mas para visualizar os resultados <strong>é preciso definir uma altura (height) para o container</strong>.</p>
+    </div>    
+    <h2>flex-flow: row wrap</h2>
+    
     <section class="container1">
         <div class="item">Exemplo de bloco A</div>
         <div class="item">Exemplo de bloco B</div>
@@ -101,6 +118,7 @@
         <div class="item">Exemplo de bloco G</div>
     </section>
 
+    <h2>flex-flow: row wrap-reverse</h2>
     <section class="container2">
         <div class="item">Exemplo de bloco A</div>
         <div class="item">Exemplo de bloco B</div>
@@ -111,6 +129,7 @@
         <div class="item">Exemplo de bloco G</div>
     </section>
 
+    <h2>flex-flow: row-reverse wrap</h2>
     <section class="container3">
         <div class="item">Exemplo de bloco A</div>
         <div class="item">Exemplo de bloco B</div>
@@ -121,6 +140,7 @@
         <div class="item">Exemplo de bloco G</div>
     </section>
 
+    <h2>flex-flow: row-reverse wrap-reverse</h2>
     <section class="container4">
         <div class="item">Exemplo de bloco A</div>
         <div class="item">Exemplo de bloco B</div>
@@ -131,6 +151,7 @@
         <div class="item">Exemplo de bloco G</div>
     </section>
 
+    <h2>flex-flow: row nowrap</h2>
     <section class="container5">
         <div class="item">Exemplo de bloco A</div>
         <div class="item">Exemplo de bloco B</div>

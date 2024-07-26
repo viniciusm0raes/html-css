@@ -17,9 +17,16 @@
             padding: 10px;            
         }          
 
-        h3{
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            padding: 5px 0px 0px 5px;
+        }
+
+        p{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1em;
+            line-height: 1.5;
             padding: 5px 0px 0px 5px;
         }
 
@@ -70,22 +77,23 @@
             text-align: center;
             padding: 10px;            
         }
-
-        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
-        As configurações serão aplicadas ao elemento pai (container).
-        Por padrão, a configuração do flex-flow é: flex-flow: column nowrap; (em linha e sem quebra dos elementos).
-        O align-items faz o alinhamento em relação ao cross-axis (eixo transversal). Se row, esse alinhamento será horizontal. Se column, o cross-axis passa a ser o vertical.
-        align-items: stretch é o valor padrão e define que os elementos serão esticados em relação ao cross-axis.
-        align-items: flex-start define que o último elemento ficará no cross-start e o espaço disponível no cross-end, também do cross-axis.        
-        align-items: flex-end define que o último elemento ficará no cross-end e o espaço disponível no cross-start, também do cross-axis.        
-        align-items: center define que os elementos sejam distribuídos no centro do cross-axis.
-        */          
+          
     </style>
     <title>align-items (column)</title>
 </head>
 <body>
 	<h1>align-items (column)</h1>
-    <h3>align-items: stretch</h3>
+    <div>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+        As configurações serão aplicadas ao elemento pai (container).<br>
+        Por padrão, a configuração do flex-flow é: flex-flow: column nowrap; (em linha e sem quebra dos elementos).<br>
+        O align-items faz o alinhamento em relação ao cross-axis (eixo transversal). Se row, esse alinhamento será horizontal. Se column, o cross-axis passa a ser o vertical.<br>
+        align-items: stretch - é o valor padrão e define que os elementos serão esticados em relação ao cross-axis.<br>
+        align-items: flex-start - define que o último elemento ficará no cross-start e o espaço disponível no cross-end, também do cross-axis.<br>
+        align-items: flex-end - define que o último elemento ficará no cross-end e o espaço disponível no cross-start, também do cross-axis.<br>
+        align-items: center - define que os elementos sejam distribuídos no centro do cross-axis.</p>
+    </div>    
+    <h2>align-items: stretch</h2>
     <section class="container1">        
         <div class="item">A</div>
         <div class="item">B</div>
@@ -96,7 +104,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>align-items: flex-start</h3>
+    <h2>align-items: flex-start</h2>
     <section class="container2">
         <div class="item">A</div>
         <div class="item">B</div>
@@ -107,7 +115,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>align-items: flex-end</h3>
+    <h2>align-items: flex-end</h2>
     <section class="container3">
         <div class="item">A</div>
         <div class="item">B</div>
@@ -118,7 +126,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>align-items: center</h3>
+    <h2>align-items: center</h2>
     <section class="container4">
         <div class="item">A</div>
         <div class="item">B</div>

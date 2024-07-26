@@ -8,10 +8,12 @@
         *{
             margin: 0px;
             padding: 0px;
-        }        
+            box-sizing: border-box;
+        }    
         
-        h1, h2{
-            font-family: Arial, Helvetica, sans-serif;            
+        h1, h2, p{
+            font-family: Arial, Helvetica, sans-serif;    
+            padding: 0 8px;        
         }
 
         h1{
@@ -20,6 +22,10 @@
 
         h2{
             font-size: 1.5em;
+        }
+
+        p{
+            font-size: 1em;            
         }
 
         /*O justify-content alinha os itens dentro do eixo principal (main-axis). Já o align-itens, alinha os itens no eixo transversal (cross-axis). O aling-content, também alinha no eixo transversal (cross-axis), mas quando eles estão empacotados e configurados como wrap. Com nowrap não funciona e o comportamento padrão é o stretch.
@@ -99,15 +105,17 @@
             padding: 40px;
         }
 
-        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
-        As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
+        /*As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
         Apesar de declarado acima, para exemplificação, a configuração padrão da tag div já é block, não precisando ser declarada.
         */          
     </style>
-    <title>Flexbox - display</title>
+    <title>Flexbox - align-content</title>
 </head>
 <body>
 	<h1>Flexbox - aling-content</h1>
+    <div>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</p>
+    </div>
     <h2>aling-content: stretch (padrão)</h2>
     <div class="container1">
         <div class="item">A</div>

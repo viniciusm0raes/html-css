@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }        
+        
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+                
+        .container1{
+            display: flex;
+            flex-flow: row wrap;
+            background-color: lightsalmon;
+            height: 400px;
+            align-items: center;
+        } 
+
+        .item{      
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px solid black;            
+            text-align: center;
+            padding: 10px;
+        }
+
+        /*A propriedade align-self se aplica apenas aos elementos filho e age diretamente no cross-axis. Como row, o cross-axis é o eixo vertical, enquanto na column, o cross-axis é o eixo horizontal.
+        Os valores disponíveis para a propriedade alig-self:
+        auto - é o valor padrão e herda a característica de alinhamento vertical do elemento pai, seja o align-content ou align-items.
+        flex-start - alinha o elemento no início do cross-axis.
+        flex-end - alinha o elemento no fim do cross-axis.
+        flex-center - alinha o elemento no centro do cross-axis.
+        stretch - faz com que o elemento ocupe todo o espaço do cross-axis. */
+
+        #i1{
+            align-self: auto;
+        }
+
+        #i2{
+            align-self: flex-start;
+        }
+
+        #i3{
+            align-self: flex-end;
+        }
+
+        #i4{
+            align-self: center;
+        }
+
+        #i5{
+            align-self: stretch;
+        }        
+
+        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
+        As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
+        Apesar de declarado acima, para exemplificação, a configuração padrão da tag div já é block, não precisando ser declarada.
+        */          
+    </style>
+    <title>Flexbox - align-self</title>
+</head>
+<body>
+	<h1>Flexbox - align-self</h1>
+    <div class="container1">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+    </div>  
+</body>
+</html>

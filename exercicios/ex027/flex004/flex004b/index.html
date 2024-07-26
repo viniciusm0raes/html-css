@@ -17,11 +17,18 @@
             padding: 10px;            
         }          
 
-        h3{
+        h2{
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 1em;
+            font-size: 1.5em;
             padding: 5px 0px 0px 5px;
         }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            padding: 5px 0px 0px 5px;
+        }   
 
         section{
             height: 350px;
@@ -78,24 +85,25 @@
             text-align: center;
             padding: 10px;            
         }
-
-        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
-        As configurações serão aplicadas ao elemento pai (container).
-        Por padrão, a configuração do flex-flow é: flex-flow: column nowrap; (em linha e sem quebra dos elementos).
-        O justify-content faz o alinhamento em relação ao main-axis (eixo principal). Se row, esse alinhamento será horizontal. Se column, o main-axis passa a ser o vertical.
-        justify-content: flex-start é o valor padrão e define que o primeiro elemento ficará no main-start do main-axis e o espaço disponível no main-end, também do main-axis.
-        justify-content: flex-end define que o último elemento ficará no main-end do main-axis e o espaço disponível no main-start, também do main-axis.        
-        justify-content: center define que os elementos sejam distribuídos no centro do main-axis.                
-        justify-content: space-between define que o primeiro elemento esteja no main-star do main-axis, que o último elemento esteja no main-end do mesmo main-axis e que os demais elementos sejam distribuídos por igual no espaço disponível no main-axis.                
-        justify-content: space-evenly define que antes e depois dos ítens se tenha espaçamentos iguais, todos em relação ao main-axis.
-        justify-content: space-around define que, no main-axis, o espaço disponível no container seja divido igualmente pelo números de elementos existentes e centralizará cada elemento num desses espaços calculados.
-        */          
+          
     </style>
     <title>justify-content (column)</title>
 </head>
 <body>
 	<h1>justify-content (column)</h1>
-    <h3>justify-content: flex-start</h3>
+    <div>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+        As configurações serão aplicadas ao elemento pai (container).<br>
+        Por padrão, a configuração do flex-flow é: flex-flow: column nowrap; (em linha e sem quebra dos elementos).<br>
+        O justify-content faz o alinhamento em relação ao main-axis (eixo principal). Se row, esse alinhamento será horizontal. Se column, o main-axis passa a ser o vertical.<br>
+        <strong>justify-content: flex-start</strong> - é o valor padrão e define que o primeiro elemento ficará no main-start do main-axis e o espaço disponível no main-end, também do main-axis.<br>
+        <strong>justify-content: flex-end</strong> - define que o último elemento ficará no main-end do main-axis e o espaço disponível no main-start, também do main-axis.<br>
+        <strong>justify-content: center</strong> define que os elementos sejam distribuídos no centro do main-axis.<br>
+        <strong>justify-content: space-between</strong> - define que o primeiro elemento esteja no main-star do main-axis, que o último elemento esteja no main-end do mesmo main-axis e que os demais elementos sejam distribuídos por igual no espaço disponível no main-axis.<br>
+        <strong>justify-content: space-evenly</strong> - define que antes e depois dos ítens se tenha espaçamentos iguais, todos em relação ao main-axis.<br>
+        <strong>justify-content: space-around</strong> - define que, no main-axis, o espaço disponível no container seja divido igualmente pelo números de elementos existentes e centralizará cada elemento num desses espaços calculados.</p>
+    </div>
+    <h2>justify-content: flex-start</h2>
     <section class="container1">        
         <div class="item">A</div>
         <div class="item">B</div>
@@ -106,7 +114,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>justify-content: flex-end</h3>
+    <h2>justify-content: flex-end</h2>
     <section class="container2">
         <div class="item">A</div>
         <div class="item">B</div>
@@ -117,7 +125,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>justify-content: center</h3>
+    <h2>justify-content: center</h2>
     <section class="container3">
         <div class="item">A</div>
         <div class="item">B</div>
@@ -128,7 +136,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>justify-content: space-between</h3>
+    <h2>justify-content: space-between</h2>
     <section class="container4">
         <div class="item">A</div>
         <div class="item">B</div>
@@ -139,7 +147,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>justify-content: space-evenly</h3>
+    <h2>justify-content: space-evenly</h2>
     <section class="container5">
         <div class="item">A</div>
         <div class="item">B</div>
@@ -150,7 +158,7 @@
         <div class="item">G</div>
     </section>   
 
-    <h3>justify-content: space-around</h3>
+    <h2>justify-content: space-around</h2>
     <section class="container6">
         <div class="item">A</div>
         <div class="item">B</div>
