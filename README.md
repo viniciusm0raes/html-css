@@ -72,14 +72,17 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq004/index.html"> Media Queries - Device Breakpoints</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq005/index.html"> Media Query - Menu ajustado ao viewport (JavaScript)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex001/index.html"> Flexbox - display</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex002/index.html"> flex-direction</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex003/flex003a/index.html"> flex-wrap (row)</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex003/flex003b/index.html"> flex-wrap (column)</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004a/index.html"> justify-content (row)</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004b/index.html"> justify-content (column)</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004c/index.html"> align-items (row)</a></li>  
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004d/index.html"> align-items (column)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex002/index.html"> Flexbox - flex-direction</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex003/flex003a/index.html"> Flexbox - flex-wrap (row)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex003/flex003b/index.html"> Flexbox - flex-wrap (column)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004a/index.html"> Flexbox - justify-content (row)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004b/index.html"> Flexbox - justify-content (column)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004c/index.html"> Flexbox - align-items (row)</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex004/flex004d/index.html"> Flexbox - align-items (column)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex005/index.html"> Flexbox centralizado</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex006/index.html"> Flexbox - aling-content</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex007/index.html"> Flexbox - order</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex008/index.html"> Flexbox - align-self</a></li>
 
 ***
 <li><h4><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></h4></li>
