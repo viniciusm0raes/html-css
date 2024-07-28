@@ -11,7 +11,7 @@
             box-sizing: border-box;
         }    
         
-        h1, h2, p{
+        h1, h2 {
             font-family: Arial, Helvetica, sans-serif;    
             padding: 0 8px;        
         }
@@ -25,20 +25,13 @@
         }
 
         p{
-            font-size: 1em;            
-        }
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            padding: 5px 0px 0px 5px;
+        }   
 
-        /*O justify-content alinha os itens dentro do eixo principal (main-axis). Já o align-itens, alinha os itens no eixo transversal (cross-axis). O aling-content, também alinha no eixo transversal (cross-axis), mas quando eles estão empacotados e configurados como wrap. Com nowrap não funciona e o comportamento padrão é o stretch.
-        Os valores válidos do aling-content são:
-        stretch (padrão) - divide o espaço disponível, se linhas ou colunas em valores iguais e estica os elementos dentro deste espaço
-        flex-start - distribui os elementos no cross-start e os espaço em branco no cross-end
-        flex-end  -  distribui os elementos no cross-end e os espaço em branco no cross-start, obedecendo a distribuição conforme a configuração normal ou reverse
-        center -  distribui os elementos no centro do espaço disponível, também conforme a configuração normal ou reverse
-        space-between -  define que o primeiro elemento esteja no cross-star do cross-axis, que o último elemento esteja no cross-end do mesmo cross-axis e que os demais elementos sejam distribuídos por igual no espaço disponível no cross-axis.
-        space-evenly - define que antes e depois (cross-star / cross-end) dos ítens se tenha espaçamentos iguais, todos em relação ao cross-axis.
-        space-around -  define que, no cross-axis, o espaço disponível no container seja divido igualmente pelo números de elementos existentes e centralizará cada elemento num desses espaços calculados.
-        */
-                
+               
         .container1{
             display: flex;
             flex-flow: row wrap;
@@ -95,8 +88,7 @@
             align-content: space-around;
         }                      
         
-        .item{
-            /* O flex: auto só funciona nos elementos filho e não permite espaços em branco no elemento pai. O bloco deslocado ocupa todo o espaço disponível na viewport.*/                                 
+        .item{                                
             font-family: Arial, Helvetica, sans-serif;
             font-size: 0.71em;
             background-color: lightblue;
@@ -104,17 +96,23 @@
             text-align: center;
             padding: 40px;
         }
-
-        /*As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
-        Apesar de declarado acima, para exemplificação, a configuração padrão da tag div já é block, não precisando ser declarada.
-        */          
+    
     </style>
     <title>Flexbox - align-content</title>
 </head>
 <body>
 	<h1>Flexbox - aling-content</h1>
     <div>
-        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</p>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</p>
+        <p>O <strong>justify-content</strong> alinha os itens dentro do <strong>eixo principal (main-axis)</strong>. Já o <strong>align-itens</strong>, alinha os itens no <strong>eixo transversal (cross-axis)</strong>. O <strong>aling-content</strong>, também alinha no <strong>eixo transversal (cross-axis)</strong>, mas <strong>quando eles estão empacotados e configurados como wrap</strong>. Com nowrap não funciona e o comportamento padrão é o stretch.<br>
+        Os valores válidos do aling-content são:<br>
+        <strong>stretch (padrão)</strong> - divide o espaço disponível, se linhas ou colunas em valores iguais e estica os elementos dentro deste espaço<br>
+        <strong>flex-start</strong> - distribui os elementos no cross-start e os espaço em branco no cross-end<br>
+        <strong>flex-end</strong>  -  distribui os elementos no cross-end e os espaço em branco no cross-start, obedecendo a distribuição conforme a configuração normal ou reverse<br>
+        <strong>center</strong> -  distribui os elementos no centro do espaço disponível, também conforme a configuração normal ou reverse<br>
+        <strong>space-between</strong> -  define que o primeiro elemento esteja no cross-star do cross-axis, que o último elemento esteja no cross-end do mesmo cross-axis e que os demais elementos sejam distribuídos por igual no espaço disponível no cross-axis.<br>
+        <strong>space-evenly</strong> - define que antes e depois (cross-star / cross-end) dos ítens se tenha espaçamentos iguais, todos em relação ao cross-axis.<br>
+        <strong>space-around</strong> -  define que, no cross-axis, o espaço disponível no container seja divido igualmente pelo números de elementos existentes e centralizará cada elemento num desses espaços calculados.</p>
     </div>
     <h2>aling-content: stretch (padrão)</h2>
     <div class="container1">

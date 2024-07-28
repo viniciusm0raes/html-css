@@ -15,6 +15,13 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 2em;
         }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            padding: 5px 0px 0px 5px;
+        }   
                 
         .container1{
             display: flex;
@@ -33,7 +40,6 @@
             padding: 10px;
         }
 
-        /* A propriedade order definirá a ordem de exibição dos elementos. Caso o valor de order seja igual, isso não será definido pelo CSS diretamente, mas sim pela ordem no próprio HTML. Um exemplo disso é o caso do A e o F, nesse caso. */
 
         #i1{
             order: 0;
@@ -62,18 +68,15 @@
         #i7{
             order: -4;
         }
-
-        
-
-        /*Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho do viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.
-        As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada apenas nos elementos filho. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.
-        Apesar de declarado acima, para exemplificação, a configuração padrão da tag div já é block, não precisando ser declarada.
-        */          
     </style>
     <title>Flexbox - order</title>
 </head>
 <body>
 	<h1>Flexbox - order</h1>
+    <div>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+        A propriedade <strong>order</strong> definirá a ordem de exibição dos elementos. Caso o valor de order seja igual, isso <strong>não será</strong> definido pelo CSS diretamente, mas sim pela <strong>ordem de inclusão no próprio HTML</strong>. Um exemplo disso é o caso do A e o F abaixo.</p>
+    </div>
     <div class="container1">
         <div class="item" id="i1">A</div>
         <div class="item" id="i2">B</div>
