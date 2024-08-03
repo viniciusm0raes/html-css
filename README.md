@@ -83,6 +83,7 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex006/index.html"> Flexbox - aling-content</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex007/index.html"> Flexbox - order</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex008/index.html"> Flexbox - align-self</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex009/index.html"> Flexbox - flex-basis</a></li>
 
 ***
 <li><h4><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></h4></li>
