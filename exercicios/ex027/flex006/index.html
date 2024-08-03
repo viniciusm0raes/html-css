@@ -31,6 +31,9 @@
             padding: 5px 0px 0px 5px;
         }   
 
+        span{
+            background-color: #ffff00;
+        }
                
         .container1{
             display: flex;
@@ -92,7 +95,7 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 0.71em;
             background-color: lightblue;
-            border: 1px solid black;            
+            border: 1px dashed black;            
             text-align: center;
             padding: 40px;
         }
@@ -103,7 +106,7 @@
 <body>
 	<h1>Flexbox - aling-content</h1>
     <div>
-        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</p>
+        <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</span></p>
         <p>O <strong>justify-content</strong> alinha os itens dentro do <strong>eixo principal (main-axis)</strong>. Já o <strong>align-itens</strong>, alinha os itens no <strong>eixo transversal (cross-axis)</strong>. O <strong>aling-content</strong>, também alinha no <strong>eixo transversal (cross-axis)</strong>, mas <strong>quando eles estão empacotados e configurados como wrap</strong>. Com nowrap não funciona e o comportamento padrão é o stretch.<br>
         Os valores válidos do aling-content são:<br>
         <strong>stretch (padrão)</strong> - divide o espaço disponível, se linhas ou colunas em valores iguais e estica os elementos dentro deste espaço<br>

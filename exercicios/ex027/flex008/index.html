@@ -23,6 +23,11 @@
             line-height: 1.5;
             padding: 5px 0px 0px 5px;
         }    
+
+        span{
+            background-color: #ffff00;
+        }
+
                 
         .container1{
             display: flex;
@@ -36,7 +41,7 @@
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1em;
             background-color: lightblue;
-            border: 1px solid black;            
+            border: 1px dashed black;            
             text-align: center;
             padding: 10px;
             align-content: center;
@@ -68,7 +73,7 @@
 <body>
 	<h1>Flexbox - align-self</h1>
     <div>
-        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+        <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</span><br>
         A propriedade <strong>align-self</strong> se aplica <strong>apenas aos elementos filho</strong> e age diretamente no <strong>cross-axis</strong>. Como row, o cross-axis é o <strong>eixo vertical</strong>, enquanto na column, o cross-axis é o <strong>eixo horizontal</strong>.<br>
         Os valores disponíveis para a propriedade alig-self:<br>
         <strong>auto</strong> - é o valor padrão e <strong>herda</strong> a característica de alinhamento vertical do elemento pai, seja o <strong>align-content</strong> ou <strong>align-items</strong>.<br>

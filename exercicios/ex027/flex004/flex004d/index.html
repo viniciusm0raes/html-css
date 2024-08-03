@@ -30,10 +30,18 @@
             padding: 5px 0px 0px 5px;
         }
 
+        em{
+            font-style: normal;
+            text-decoration: underline;
+        }
+
+        span{
+            background-color: #ffff00;
+        }
+
         section{
             height: 350px;
-            margin: 0px 0px 10px 0px;   
-            border: 1px solid black;                                 
+            margin: 0px 0px 10px 0px;               
         }
 
         .container1{
@@ -84,14 +92,14 @@
 <body>
 	<h1>Flexbox - align-items (column)</h1>
     <div>
-        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+        <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</span><br>
         As configurações serão aplicadas ao elemento pai (container).<br>
-        Por padrão, a configuração do flex-flow é: flex-flow: column nowrap; (em linha e sem quebra dos elementos).<br>
-        O align-items faz o alinhamento em relação ao cross-axis (eixo transversal). Se row, esse alinhamento será horizontal. Se column, o cross-axis passa a ser o vertical.<br>
-        align-items: stretch - é o valor padrão e define que os elementos serão esticados em relação ao cross-axis.<br>
-        align-items: flex-start - define que o último elemento ficará no cross-start e o espaço disponível no cross-end, também do cross-axis.<br>
-        align-items: flex-end - define que o último elemento ficará no cross-end e o espaço disponível no cross-start, também do cross-axis.<br>
-        align-items: center - define que os elementos sejam distribuídos no centro do cross-axis.</p>
+        Por padrão, a configuração do flex-flow é: <em>flex-flow: column nowrap;</em> (em coluna e sem quebra dos elementos).<br>
+        O align-items faz o alinhamento em relação ao <em>cross-axis (eixo transversal)</em>. Se row, esse alinhamento será <em>horizontal</em>. Se column, o cross-axis passa a ser o <em>vertical</em>.<br>
+        <strong>align-items: stretch</strong> - é o valor padrão e define que os elementos serão alongados em relação ao cross-axis.<br>
+        <strong>align-items: flex-start</strong> - define que o último elemento ficará no cross-start e o espaço disponível no cross-end, também do cross-axis.<br>
+        <strong>align-items: flex-end</strong> - define que o último elemento ficará no cross-end e o espaço disponível no cross-start, também do cross-axis.<br>
+        <strong>align-items: center</strong> - define que os elementos sejam distribuídos no centro do cross-axis.</p>
     </div>    
     <h2>align-items: stretch</h2>
     <section class="container1">        

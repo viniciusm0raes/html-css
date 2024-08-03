@@ -28,6 +28,10 @@
             line-height: 1.5;
             padding: 5px 0px 0px 5px;
         }    
+
+        span{
+            background-color: #ffff00;
+        }
       
         section{
             margin: 10px;              
@@ -56,9 +60,7 @@
             flex-direction: column-reverse;
             background-color: lightsalmon;
         }        
-
-        /* O flex: auto só funciona nos elementos filho e não permite espaços em branco no elemento pai. O bloco deslocado ocupa todo o espaço disponível na viewport.*/ 
-            
+           
         .item{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 0.71em;
@@ -74,7 +76,7 @@
 <body>    
 		<h1>Flexbox - flex-direction</h1>
         <div>
-            <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.<br>
+            <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</span><br>
             As configurações serão aplicadas ao elemento pai (container). Já a propriedade flex: auto; deve ser declarada <strong>apenas nos elementos filho</strong>. Esta defini que não deve haver espaço em branco no elemento pai. Os elementos filho serão distribuídos (esticados) para ocupar todo o espaço da viewport.<br>
             <strong>O flex-direction cria 2 eixos (axis) para cada elemento</strong>. Cada um deles tendo o seu star e end (direção). Em sua configuração padrão, a linha (row) horizontal, configurará o <strong>main-axis</strong> (eixo principal) como da esquerda para a direita e o <strong>cross-axis</strong> de cima para baixo. <strong>Já para column, o eixo principal troca de lugar com o eixo transversal (cross-axis</strong>) e sua configuração padrão é de cima para baixo e esquerda para direita.<br>
             Invertidos (<strong>row-reverse</strong> ou <strong>column-reverse</strong>) as direções são alteradas para (da direita para esquerda (row) ou de baixo para cima (column)).<br>

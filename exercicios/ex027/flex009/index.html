@@ -29,6 +29,10 @@
             padding: 5px 0px 0px 5px;
         }   
 
+        span{
+            background-color: #ffff00;
+        }
+
         em{
             font-style: normal;
             text-decoration: underline;
@@ -84,7 +88,7 @@
 <body>
 	<h1>Flexbox - flex-basis</h1>
     <div>
-        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos elementos/conteúdos efetuados por cada propriedade.<br>
+        <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos elementos/conteúdos efetuados por cada propriedade.</span><br>
         A propriedade <strong>flex-basis</strong> se aplica apenas aos <em>elementos filho</em> e age diretamente no <em>main-axis</em>. Ela define um <em>valor padrão</em> para o tamanho deste elemento. Adaptando-se ao conteúdo deste (<em>auto</em>) ou ao valor padrão definido (<em>unidade de medida</em>).O valor definido nesta propriedade é obedecido <em>enquanto o tamanho do container pai permitir</em> sua aplicação.<br>
         Os valores disponíveis para a propriedade flex-basis:<br>
         <strong>auto</strong> - valor padrão que define o tamanho do elemento filho conforme o seu conteúdo. Se o tamanho do container pai, for maior que o conteúdo do elemento filho, ele não irá aumentar o tamanho deste para além do necessário, deixando em vazio o espaço restante. Como a configuração testada aqui está como nowrap, se o tamanho do container for menor que o necessário para conter todos os elementos, ele irá reduzir de forma flexível e adaptar o seu conteúdo, conforme o espaço disponível.<br>
