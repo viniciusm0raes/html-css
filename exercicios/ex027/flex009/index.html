@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+        }        
+        
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            padding: 10px;
+        }
+
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            padding: 5px 0px 0px 5px;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            padding: 5px 0px 0px 5px;
+        }   
+
+        em{
+            font-style: normal;
+            text-decoration: underline;
+        }
+                
+        .container1{
+            display: flex;
+            flex-flow: row nowrap;            
+            background-color: lightsalmon;            
+        }
+
+        .container2{
+            display: flex;
+            flex-flow: row nowrap;            
+            background-color: lightsalmon;            
+        }  
+        
+        .container3{
+            display: flex;
+            flex-flow: row wrap;            
+            background-color: lightsalmon;            
+        }   
+
+        .container4{
+            display: flex;
+            flex-flow: row wrap;            
+            background-color: lightsalmon;            
+        }   
+
+        .item-auto{
+            flex-basis: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px dashed black;            
+            text-align: center;
+            padding: 10px;
+        }
+
+        .item-unidade{
+            flex-basis: 150px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px dashed black;            
+            text-align: center;
+            padding: 10px;
+        }        
+      
+    </style>
+    <title>Flexbox - flex-basis</title>
+</head>
+<body>
+	<h1>Flexbox - flex-basis</h1>
+    <div>
+        <p>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos elementos/conteúdos efetuados por cada propriedade.<br>
+        A propriedade <strong>flex-basis</strong> se aplica apenas aos <em>elementos filho</em> e age diretamente no <em>main-axis</em>. Ela define um <em>valor padrão</em> para o tamanho deste elemento. Adaptando-se ao conteúdo deste (<em>auto</em>) ou ao valor padrão definido (<em>unidade de medida</em>).O valor definido nesta propriedade é obedecido <em>enquanto o tamanho do container pai permitir</em> sua aplicação.<br>
+        Os valores disponíveis para a propriedade flex-basis:<br>
+        <strong>auto</strong> - valor padrão que define o tamanho do elemento filho conforme o seu conteúdo. Se o tamanho do container pai, for maior que o conteúdo do elemento filho, ele não irá aumentar o tamanho deste para além do necessário, deixando em vazio o espaço restante. Como a configuração testada aqui está como nowrap, se o tamanho do container for menor que o necessário para conter todos os elementos, ele irá reduzir de forma flexível e adaptar o seu conteúdo, conforme o espaço disponível.<br>
+        <strong>unidade de medida</strong> - se for definido um tamanho "padrão" para o elemento filho, o elemento não adaptará seu tamanho ao conteúdo, tentará obedecer o valor definido. Caso o espaço do container pai não comporte todos os elementos com esse valor, o conteúdo do elemento filho será quebrado (wrap) para manter o valor definido na propriedade flex-basis. Caso o espaço do container não comporte os elementos, mesmo com seu conteúdo quebrado (wrap), será gerada barra de rolagem.</p>
+    </div>    
+    <h2>flex-basis: auto; (container como flex-flow: row <em>nowrap;</em>)</h2>
+    <div class="container1">
+        <div class="item-auto">A</div>
+        <div class="item-auto">Outro conteúdo</div>
+        <div class="item-auto">C</div>
+        <div class="item-auto">Conteúdo um pouco maior</div>
+        <div class="item-auto">E</div>
+        <div class="item-auto">Conteúdo maior ainda, que vai ocupar mais espaço</div>
+        <div class="item-auto">G</div>
+
+    </div>
+
+    <h2>flex-basis: unidade de medida (150px, neste exemplo e container como flex-flow: row <em>nowrap;</em>);</h2>
+    <div class="container2">
+        <div class="item-unidade">A</div>
+        <div class="item-unidade">Outro conteúdo</div>
+        <div class="item-unidade">C</div>
+        <div class="item-unidade">Conteúdo um pouco maior</div>
+        <div class="item-unidade">E</div>
+        <div class="item-unidade">Conteúdo maior ainda, que vai ocupar mais espaço</div>
+        <div class="item-unidade">G</div>
+    </div>    
+
+    <h2>flex-basis: auto; (container como flex-flow: row <em>wrap;</em>)</h2>
+    <div class="container3">
+        <div class="item-auto">A</div>
+        <div class="item-auto">Outro conteúdo</div>
+        <div class="item-auto">C</div>
+        <div class="item-auto">Conteúdo um pouco maior</div>
+        <div class="item-auto">E</div>
+        <div class="item-auto">Conteúdo maior ainda, que vai ocupar mais espaço</div>
+        <div class="item-auto">G</div>
+    </div>       
+
+    <h2>flex-basis: unidade de medida (150px, neste exemplo e container como flex-flow: row <em>wrap;</em>);</h2>
+    <div class="container4">
+        <div class="item-unidade">A</div>
+        <div class="item-unidade">Outro conteúdo</div>
+        <div class="item-unidade">C</div>
+        <div class="item-unidade">Conteúdo um pouco maior</div>
+        <div class="item-unidade">E</div>
+        <div class="item-unidade">Conteúdo maior ainda, que vai ocupar mais espaço</div>
+        <div class="item-unidade">G</div>
+    </div>        
+</body>
+</html>
