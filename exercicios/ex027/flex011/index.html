@@ -45,103 +45,80 @@
             background-color: lightsalmon;            
         }  
         
-        .container3{
-            display: flex;
-            flex-flow: row nowrap;
-            background-color: lightsalmon;            
-        }  
-        
-        .container4{
-            display: flex;
-            flex-flow: row nowrap;
-            background-color: lightsalmon;            
-        }          
-
-        .itens1{                   
-            flex-basis: 200px;
-            flex-shrink: 1;
-            flex-grow: 0;
+        .itens1{                     
+            flex-basis: 150px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 0.71em;
             background-color: lightblue;
             border: 1px dashed black;            
             text-align: center;
             padding: 10px;
-        }
-      
+        }       
+        
         .itens2{                     
-            flex-basis: 200px;
-            flex-shrink: 0;
-            flex-grow: 0;
+            flex-basis: 350px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 0.71em;
             background-color: lightblue;
             border: 1px dashed black;            
             text-align: center;
             padding: 10px;
-        }    
-        
-        .itens3{                     
-            flex-basis: 200px;
+        }                  
+
+        #ct1-cxA{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        #ct1-cxB{
             flex-shrink: 0;
             flex-grow: 1;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.71em;
-            background-color: lightblue;
-            border: 1px dashed black;            
-            text-align: center;
-            padding: 10px;
-        }     
-        
-        .itens4{                     
-            flex-basis: 200px;
+        }
+
+        #ct1-cxC{
             flex-shrink: 1;
             flex-grow: 1;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.71em;
-            background-color: lightblue;
-            border: 1px dashed black;            
-            text-align: center;
-            padding: 10px;
-        }                 
+        }
+
+        #ct2-cxA{
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+        #ct2-cxB{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        #ct2-cxC{
+            flex-shrink: 4;
+            flex-grow: 0;
+        }        
     </style>
-    <title>Flex-shrink / Flex-grow</title>
+    <title>Por item (flex-shrink / flex-grow)</title>
 </head>
 <body>
 	<h1>Flexbox - flex-shrink (pode encolher?) / flex-grow (pode aumentar?)</h1>
     <div>
         <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</span><br>
         Por pardão, o <strong>flex-shrink é 1</strong>. Isso significa que o elemento filho <strong>pode encolher</strong> para caber dentro de seu elemento pai (container). O valor 1 é uma referência de <strong>proporção</strong>, ou seja, o elemento encolhe na proporção de 1 para 1. Qualquer valor positivo pode aplicar uma proporção diferente para essa configuração.<br>
-        Também por padrão, o <strong>flex-grow é 0</strong>. Isso significa que o elemento filho <strong>não pode aumentar</strong> para ocupar o espaço vazio dentro de seu elemento pai. Aplicando qualquer valor positivo, a proporção seguirá <strong>a mesma relação</strong> (1/1, 2/2, etc.).<br>
+        Também por padrão, o <strong>flex-grow é 0</strong>. Isso significa que o elemento filho <strong>não pode aumentar</strong> para ocupar o espaço vazio dentro de seu elemento pai. Aplicando qualquer valor positivo, a proporção seguirá <strong>a mesma relação</strong> (1/1, 2/2, etc.) em relação ao elemento irmão anterior, <strong>não em relação ao elemento pai</strong>. Utilizar o DevTools e verificar o comportamento de cada elemento.<br>
         Apesar de também funcionarem com o flex-flow como wrap, para uma melhor visualização dos efeitos, a configuração dos elementos pai (containers) foi aplicada como <strong>flex-flow: row nowrap</strong>.
         </p>
-    </div>    
-    <h2>flex-shrink / flex-grow (padrão (1 / 0))</h2>
+    </div> 
+
+    <h2>flex-shrink (padrão) + flex-grow (por item)</h2>
     <div class="container1">
-        <div class="itens1">A</div>
-        <div class="itens1">B</div>
-        <div class="itens1">C</div>
-    </div>
-
-    <h2>flex-shrink / flex-grow (valores (0 / 0))</h2>
-    <div class="container2">
-        <div class="itens2">A</div>
-        <div class="itens2">B</div>
-        <div class="itens2">C</div>        
-    </div>    
-
-    <h2>flex-shrink / flex-grow (valores (0 / 1))</h2>
-    <div class="container3">
-        <div class="itens3">A</div>
-        <div class="itens3">B</div>
-        <div class="itens3">C</div>        
+        <div class="itens1" id="ct1-cxA">A</div>
+        <div class="itens1" id="ct1-cxB">B</div>
+        <div class="itens1" id="ct1-cxC">C</div>        
     </div>  
 
-    <h2>flex-shrink / flex-grow (valores (1 / 1))</h2>
-    <div class="container4">
-        <div class="itens4">A</div>
-        <div class="itens4">B</div>
-        <div class="itens4">C</div>        
+    <h2>flex-shrink (por item) + flex-grow (padrão)</h2>
+    <div class="container2">
+        <div class="itens2" id="ct2-cxA">A</div>
+        <div class="itens2" id="ct2-cxB">B</div>
+        <div class="itens2" id="ct2-cxC">C</div>        
     </div>      
 </body>
 </html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+        }        
+        
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            padding: 10px;
+        }
+
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            padding: 5px 0px 0px 5px;
+        }
+
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5;
+            padding: 5px 0px 0px 5px;
+        }   
+
+        span{
+            background-color: #ffff00;
+        }
+                
+        .container1{
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: lightsalmon;            
+        }
+
+        .container2{
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: lightsalmon;            
+        }  
+        
+        .itens1{                                 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px dashed black;            
+            text-align: center;
+            padding: 10px;
+        }       
+        
+        .itens2{                                 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.71em;
+            background-color: lightblue;
+            border: 1px dashed black;            
+            text-align: center;
+            padding: 10px;
+        }                  
+
+        #ct1-cxA{
+            /* flex-grow: 0;
+            flex-shrink: 1;            
+            flex-basis: 200px; */
+            flex: initial;
+        }
+
+        #ct1-cxB{
+            /* flex-grow: 1;
+            flex-shrink: 0;            
+            flex-basis: 150px; */
+            flex: none;
+        }
+
+        #ct1-cxC{
+            /* flex-grow: 0;
+            flex-shrink: 1;            
+            flex-basis: auto; */
+            flex: auto;
+        }
+
+        #ct1-cxD{
+            /* flex-grow: 3;
+            flex-shrink: 1;            
+            flex-basis: auto; */
+            flex: 3;
+        }         
+
+        #ct2-cxA{
+            /* flex-grow: 0;
+            flex-shrink: 1;            
+            flex-basis: 200px; */
+            flex: 0 1 200px;
+        }
+
+        #ct2-cxB{
+            /* flex-grow: 1;
+            flex-shrink: 0;            
+            flex-basis: 150px; */
+            flex: 1 0 150px;
+        }
+
+        #ct2-cxC{
+            /* flex-grow: 1;
+            flex-shrink: 8;            
+            flex-basis: auto; */
+            flex: 1 8 auto;
+        }        
+
+        #ct2-cxD{
+            /* flex-grow: 5;
+            flex-shrink: 1;            
+            flex-basis: auto; */
+            flex: 5;
+        } 
+    </style>
+    <title>A shorthand flex (flex-grow / flex-shrink / flex-basis)</title>
+</head>
+<body>
+	<h1>Flex - Shorthand (flex-grow / flex-shrink / flex-basis)</h1>
+    <div>
+        <p><span>Para uma melhor visualização dos efeitos de cada configuração, utilizar o DevTools (F12), ajustar o tamanho da viewport e verificar os deslocamentos dos blocos efetuados por cada propriedade.</span><br>        
+        <p>As declarações das propriedades flex-grow, flex-shrink e flex-basis podem ser simplificadas pelo <strong>shorthand flex</strong>.<br>
+        O valor <strong>padrão</strong> de todas essas propriedades é <strong>flex: 0 1 auto;</strong>. Se <strong>não declaradas</strong>, essas serão as configurações automaticamente aplicadas, mas estas também podem ser ainda mais simplificadas por <strong>flex: initial;</strong>.<br>
+        Para casos de elementos <strong>não flexíveis</strong>, a configuração seria flex: 0 0 auto;, ou seja, apenas o conteúdo determinaria o tamanho do elemento. Sendo que estes não se adaptariam ao espaço disponível. Assim como a anterior, essa declaração pode ser simplificada por <strong>flex:none;</strong>.<br>
+        Uma outra condição seria onde os elementos podem aumentar e diminuir, sendo seu limite, determinado pelo conteúdo de cada um destes. Sua simplificação é o <strong>flex: auto;</strong>.<br>
+        Se na simplificação apenas <strong>um valor for definido</strong>, por exemplo: <strong>flex: 3;</strong>, isso significa que o flex-grow será 3 e tanto o flex-shrink, quanto o flex-basis, seguirão <strong>seus valores padrão</strong>, 1 e auto, respectivamente. Dessa forma, seria o mesmo que declarar <strong>flex: 3 1 auto;</strong>.</p>
+    </div> 
+
+    <h2>shorthands flex simplificadas por item (initial, none, auto, 3)</h2>
+    <div class="container1">
+        <div class="itens1" id="ct1-cxA">A</div>
+        <div class="itens1" id="ct1-cxB">B</div>
+        <div class="itens1" id="ct1-cxC">C</div>        
+        <div class="itens1" id="ct1-cxD">D</div>   
+    </div>  
+
+    <h2>shorthands flex declaradas por item</h2>
+    <div class="container2">
+        <div class="itens2" id="ct2-cxA">A</div>
+        <div class="itens2" id="ct2-cxB">B</div>
+        <div class="itens2" id="ct2-cxC">C</div>   
+        <div class="itens1" id="ct2-cxD">D</div>        
+    </div>      
+</body>
+</html>

@@ -85,6 +85,8 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex008/index.html"> Flexbox - align-self</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex009/index.html"> Flexbox - flex-basis</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex010/index.html"> Flexbox - flex-shrink (pode encolher?) / flex-grow (pode aumentar?)</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex011/index.html"> Flexbox - por item (flex-shrink / flex-grow)</a></li>
+<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex012/index.html"> Flexbox - a shorthand flex (flex-grow / flex-shrink / flex-basis)</a></li>
 
 ***
 <li><h4><a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a></h4></li>
