@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            color: #fff;  
+        }
+
+        header{
+            background-color: darkgoldenrod;
+            text-align: center;                   
+        }
+
+        main{
+            margin: 0 8px;    
+            color: #000;        
+        }
+
+        h3{
+            text-align: center;
+        }
+        
+        h3,p{
+            padding: 8px;            
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        a{
+            text-decoration: underline;
+            color: #ff0000;            
+        }
+
+        a:hover{            
+            font-weight: bold;
+        }
+
+    </style>
+    <title>Criando TAG's Aninhadas</title>
+</head>
+<body>
+    <header>
+        <h3>Atalhos VSCode para criação de TAG's aninhadas</h3>
+    </header>
+    <main>
+        <p><strong>nav.menu>ul>li*3>a</strong>  - (O > aninha e o * determina o número de tags criadas. Usando o TAB, desloca para cada ponto de inserção de dados.)</p>
+        
+        <p><strong>main>section>article>div.classe>div#test$*3</strong> - (O $ faz uma itenação e cria a quantidade de vezes, identificando unitáriamente cada.)</p>
+        <p><strong>section*5#secao$>article.conteudo>h1+p{Texto de exemplo}|c</strong> - (Como h1 e p são tags de mesmo nível, o + cria as duas em "separado", o texto nas {} inclui o conteúdo de cada parágrafo e o |c comenta cada parte do código criado.) </p>
+        
+        <p><strong>a:link[href="#"].ligacoes{Opção $}#pg$*5</strong> (Cria 5 links vazios (#), numerados sequencialmente, com ligacoes como <strong>classe</strong> e um <strong>ID "pg" sequencial</strong>.)</p>
+
+        <p><strong>section.container>div#img$*4>img+a:link[href="#"]</strong> (Cria uma <strong>section</strong> com a <strong>classe</strong> container, dentro dela 4 divs <strong>com ID sequencial</strong>. Cada div contendo uma tag de img e um link vazio (#))</p>
+        
+        <p><a href="https://youtu.be/qJ_M4W0u5rI?si=nMgJiEwOmsg9UZFf">5 truques para navegar entre as estruturas do código</a></p>	
+        <p><a href="https://youtu.be/8jLfTDn3_TM?si=DgO8E63EQIFjw8eY">O Segredo de Como Escrever HTML 50% Mais Rápido no VS Code</a></p>
+    </main>   
+</body>
+</html>
