@@ -100,6 +100,12 @@
 <li><h4><a href="https://viniciusm0raes.github.io/projeto-rsocial/">Projeto Redes Sociais</a></h4></li> 
   
 ***
+### Dicas Visual Studio Code
+  
+***
+<li><a href="https://viniciusm0raes.github.io/html-css/dicas/tags_aninhadas.html"> Criando TAG's Aninhadas</a></li>
+  
+***
 ### Exercícios Extras com CSS
   
 ***
