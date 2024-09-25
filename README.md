@@ -47,6 +47,8 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela002.html"> Tabelas Grandes</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela003.html"> Cabeçalho Fixo</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela004.html"> Mesclagem de Celulas</a></li>  
+<li><a href="https://viniciusm0raes.github.io/html-css/desafios/014/desafio-014-p01.html"> Mesclagem de Linhas / Colunas - ex. 01</a></li>    
+<li><a href="https://viniciusm0raes.github.io/html-css/desafios/014/desafio-014-p02.html"> Mesclagem de Linhas / Colunas - ex. 02</a></li>    
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela005.html"> Exercício de Tabelas</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela006.html"> Agrupamento de Colunas</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela007.html"> Tabelas com rolagem lateral (Overflow-x)</a></li>  
@@ -106,9 +108,7 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/dicas/tags_aninhadas.html"> Criando TAG's Aninhadas</a></li>
   
 ***
-### Exercícios Extras com CSS
-  
-***
+### Exercícios Extras com CSS 
   
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/background-animado.html"> Background Animado (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/efeito-texto.html"> Efeito Texto Digitado (CSS)</a></li>  
@@ -118,10 +118,5 @@
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/revelar-bloco.html"> Revelar Bloco (CSS)</a></li>  
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/grid_object-fit_responsivo.html"> Galeria Responsiva com Grid / Object-Fit (CSS)</a></li>  
   
-***
-
-<li><a href="https://viniciusm0raes.github.io/html-css/desafios/014/desafio-014-p01.html"> Mesclagem de Linhas / Colunas - ex. 01</a></li>    
-<li><a href="https://viniciusm0raes.github.io/html-css/desafios/014/desafio-014-p02.html"> Mesclagem de Linhas / Colunas - ex. 02</a></li>    
-  
-
+***  
 </ul>
