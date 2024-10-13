@@ -45,6 +45,9 @@
 </ul>
 
 ***
+#### <a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a> 
+
+***
 
 ### <a href="https://youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ&si=3bZtdMrhx7OnScoG"> Exercícios HTML5 / CSS3 - Módulo III</a>
 
@@ -68,6 +71,10 @@
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela006.html"> Agrupamento de Colunas</a></li>
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela007.html"> Tabelas com rolagem lateral (Overflow-x)</a></li>
 </ul>
+
+***
+
+#### <a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a>
 
 ***
 
@@ -100,6 +107,10 @@
 
 ***
 
+#### <a href="https://viniciusm0raes.github.io/projeto-rsocial/">Projeto Redes Sociais</a>
+
+***
+
 ### <a href="https://youtube.com/playlist?list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d&si=s4cAUpj8ykCgH6_0"> Exercícios HTML5 / CSS3 - Módulo V</a>
 
 ***
@@ -124,19 +135,10 @@
 </ul>
 
 ***
-### <a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a>
-  
-***
-
-### <a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a> 
-  
-***
- 
-### <a href="https://viniciusm0raes.github.io/projeto-rsocial/">Projeto Redes Sociais</a> 
-  
-***
 ### Dicas Visual Studio Code
-#### <a href="https://viniciusm0raes.github.io/html-css/dicas/tags_aninhadas.html"> Criando TAG's Aninhadas</a>
+<ul>
+    <li><a href="https://viniciusm0raes.github.io/html-css/dicas/tags_aninhadas.html"> Criando TAG's Aninhadas</a></li>
+</ul>
   
 ***
 ### Exercícios Extras com CSS 
