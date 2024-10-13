@@ -44,7 +44,6 @@
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex021/caixa03.html"> Borda Personalizada</a></li>
 </ul>
 
-***
 #### <a href="https://viniciusm0raes.github.io/projeto-android/">Projeto Android</a> 
 
 ***
@@ -71,8 +70,6 @@
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela006.html"> Agrupamento de Colunas</a></li>
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex023/tabela007.html"> Tabelas com rolagem lateral (Overflow-x)</a></li>
 </ul>
-
-***
 
 #### <a href="https://viniciusm0raes.github.io/projeto-cordel/">Projeto Cordel Moderno</a>
 
@@ -104,8 +101,6 @@
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq004/index.html"> Media Queries - Device Breakpoints</a></li>
     <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex026/mq005/index.html"> Media Query - Menu ajustado ao viewport (JavaScript)</a></li>
 </ul>
-
-***
 
 #### <a href="https://viniciusm0raes.github.io/projeto-rsocial/">Projeto Redes Sociais</a>
 
