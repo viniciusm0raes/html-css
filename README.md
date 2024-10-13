@@ -1,10 +1,9 @@
-# <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/search?query=html5%20e%20css3"> HTML5 / CSS3 do Curso em Vídeo</a>
+# [HTML5 / CSS3 do Curso em Vídeo](https://www.youtube.com/c/CursoemV%C3%ADdeo/search?query=html5%20e%20css3)
 
-### <a href="https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&si=12jcCpJXLhRQeIst"> Exercícios HTML5 / CSS3 - Módulo I</a>
+### [Exercícios HTML5 / CSS3 - Módulo I](https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&si=12jcCpJXLhRQeIst)
 ***
-<ul>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex001/index.html"> Olá Mundo!</a></li>
-<li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex002/index.html"> Parágrafos e quebras de linha</a></li>
+* [Olá Mundo!](https://viniciusm0raes.github.io/html-css/exercicios/ex001/index.html)
+* [Parágrafos e quebras de linha](https://viniciusm0raes.github.io/html-css/exercicios/ex002/index.html)
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex003/index.html"> Carregando Imagens</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex004/index.html"> Inserindo Favicon</a></li>
 <li><a href="https://viniciusm0raes.github.io/html-css/exercicios/ex006/index.html"> Hieraquia de Títulos</a></li>
