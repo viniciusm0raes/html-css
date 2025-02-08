@@ -130,7 +130,7 @@
 
 * [Background Animado (CSS)](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/background-animado.html)
 * [Efeito Texto Digitado (CSS)](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/efeito-texto.html)
-* [Bordas no Hover (](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/bordas-hover.html)
+* [Bordas no Hover](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/bordas-hover.html)
 * [Loader (CSS)](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/loader-css.html)
 * [Loader SVG (CSS)](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/loader-css-svg.html)
 * [Revelar Bloco (CSS)](https://viniciusm0raes.github.io/html-css/exercicios/ex_extras/revelar-bloco.html)
