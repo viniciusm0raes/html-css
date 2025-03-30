@@ -120,6 +120,7 @@
 * [Flexbox - por item (flex-shrink / flex-grow)](https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex011/index.html)
 * [Flexbox - a shorthand flex (flex-grow / flex-shrink / flex-basis)](https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex012/index.html)
 * [Flexbox - menu simples, também com versão mobile](https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex013_menu_flex-box/index.html)
+* [Flexbox - conteúdo flexível apenas com Flexbox](https://viniciusm0raes.github.io/html-css/exercicios/ex027/flex014/index.html)
 
 ***
 ### Dicas Visual Studio Code
